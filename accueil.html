@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,6 +12,8 @@
 <body>
     <header>
 
+      <!--Début de la barre de navigation-->
+
         <div class="BarreDeNav">
             <!--Il faut ajouter les 5 étoiles-->
             <h1 class="TitreNav">
@@ -24,24 +25,26 @@
             <div class="Menu">
                 <ul>
                     <li>
-                        <a href="" id="Accueil">Accueil</a>
+                        <a href="accueil.html" id="Accueil">Accueil</a>
                         <a href="" id="aPropos">a propos</a>
-                        <a href="" id="Chambres&Suites">Chambres & suites</a>
+                        <a href="chambre.html" id="Chambres&Suites">Chambres & suites</a>
                         <a href="" id="Restaurant">Restaurant</a>
                         <a href="" id="Centre">Centre de bien-être</a>
                         <a href="" id="Actualite">Actualité</a>
-                        <a href="" id="Contact">Contact</a>
+                        <a href="contact.html" id="Contact">Contact</a>
                     </li>
                 </ul>
 
                 <span class="InfosReservation">
                     <i class="flaticon-call"></i>
-                    Informations & Réservations 03 20 01 02 03
+                    Informations & Réservations
+                     03 20 01 02 03
                     <!--Ajouter en dessous de "Informations & Réservations"-->
                 </span>
             </div>
         </div>
 
+        <!--Fin de la barre de navigation, début du header-->
 
         <div class="ChambreSlider">
             <img src="/Hotel-Ducsman/images/slider/2.jpg" alt="Chambre 1">
@@ -57,10 +60,9 @@
                     L'expérience du luxe
                 </h1>
 
-                <label id="Button1" target="_blank"><!--Premier bouton tout en haut de la page-->
-                    <input type="button"
-                        value="Chambres & suites"><!-- Le "button" doit être relier sur un autre lien "Chambres"-->
-                </label>
+                <a href="chambre.html" target="_blank">Chambres & suites</a><!--Premier bouton tout en haut de la page-->
+                    <!-- Le "button" doit être relier sur un autre lien "Chambres"-->
+                
             </div>
         </div>
 
@@ -92,7 +94,10 @@
     </header>
 
     <!--Fin du Header, début du main-->
+
     <main>
+        <!--Début de la section Chambres & Suites-->
+
         <div class="Chambres">
             <p class="Ducsman">
                 Ducsman
@@ -130,6 +135,8 @@
             </div>
         </div>
 
+        <!--Fin de la section chambres & suites, début de la section "Loisirs"-->
+
         <div class="Loisirs">
             <div class="LeRestaurant">
                 <img class="Restaurant" src="/Hotel-Ducsman/images/restaurant/1.jpg" alt="Notre spacieux restaurant">
@@ -149,6 +156,7 @@
             </div>
         </div>
 
+
         <div class="ExperienceBienEtre">
             <img class="SalonDeMassage" src="/Hotel-Ducsman/images/spa/3.jpg" alt="Salon de massage">
             <div class="ExperiencesTxt">
@@ -164,6 +172,7 @@
                 <span><button class="EnSavoirPlus">En savoir plus</button></span>
             </div>
         </div>
+
 
         <div class="Epanouissement">
             <img class="SalleDeSport" src="/Hotel-Ducsman/images/spa/2.jpg" alt="Notre merveilleuse salle de sport">
@@ -182,6 +191,7 @@
             </div>
         </div>
 
+
         <div class="ExperienceCentreAquatique">
             <img class="Piscine" src="/Hotel-Ducsman/images/spa/1.jpg" alt="Notre plus belle piscine">
             <div class="CentreAquatique">
@@ -197,6 +207,8 @@
                 <span><button class="EnSavoirPlus">En savoir plus</button></span>
             </div>
         </div>
+
+        <!--Fin de la section "Loisirs", début de la section Options-->
 
         <div class="LesOptions">
             <h2 class="Options">Options</h2>
@@ -214,17 +226,114 @@
                 <p>30€ / jour</p>
 
                 <ul>
-                    <li>Hotel ut nisan the duru</li>
+                    <li>
+                        <!--Ajouter le logo de validation-->Hotel ut nisan the duru
+                        <!--Ajouter le logo de validation-->Orci miss natoque vasa ince
+                        <!--Ajouter le logo de negation(la croix)-->Clean sorem ipsum morbin
+                    </li>
+                </ul>
+            </div>
+
+            <div class="CoffreFort">
+                <h4>Coffre-fort sécurisé</h4>
+
+                <p>15€ / jour</p>
+
+                <ul>
+                    <li>
+                        <!--Ajouter le logo de validation-->Hotel ut nisan the duru
+                        <!--Ajouter le logo de validation-->Orci miss natoque vasa ince
+                        <!--Ajouter le logo de negation(la croix)-->Clean sorem ipsum morbin
+                    </li>
                 </ul>
             </div>
         </div>
 
-        <i class="ti-instagram"></i>
-        <i class="ti-twitter"></i>
-        <i class="ti-youtube"></i>
-        <i class="ti-facebook"></i>
-        <i class="ti-pinterest"></i>
+        <!--Fin de la section Options, début de la section Services en +-->
+
+        <div class="ServicesEn+">
+            <h2 class="Services">Services en +</h2>
+
+            <div class="Transferts">
+                <!--Ajouter le logo "globe" pour la section "transferts"-->
+                <h4>Transferts</h4>
+
+                <p>Nous pouvons venir vous chercher directement à l'aéroport en voiture individuelle</p>
+            </div>
+
+            <div class="Parking">
+                <!--Ajouter le logo "voiture" pour la section "parking"-->
+                <h4>Parking</h4>
+
+                <p>Une place de parking peut vous être réservée</p>
+            </div>
+
+            <div class="RoomService">
+                <!--Ajouter le logo "lit" pour la section "room service"-->
+                <h4>Room Service</h4>
+
+                <p>Nous nous occupons du nettoyage de la chambre et de l'entretien de vos vêtements</p>
+            </div>
+
+            <div class="Piscine">
+                <!--Ajouter le logo "piscine" pour la section "piscine"-->
+                <h4>Piscine</h4>
+
+                <p>Une piscine chauffée est à votre disposition</p>
+            </div>
+
+            <div class="Internet">
+                <!--Ajouter le logo "internet" pour la section "accès internet"-->
+                <h4>Accès internet</h4>
+
+                <p>Accès Wifi gratuit disponible dans l'ensemble de l'hôtel</p>
+            </div>
+
+            <div class="PetitDejeuner">
+                <!--Ajouter le logo "barbecue" pour la section "Petit déjeuner"-->
+                <h4>Petit déjeuner</h4>
+
+                <p>Le restaurant vous propose tous les matins, un buffet continental</p>
+            </div>
+        </div>
     </main>
+
+
+    <footer>
+        <div class="APropos">
+            <h3>A propos de notre hôtel</h3>
+
+            <p>Le seul hôtel 5 étoiles de Paris. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Minus expedita explicabo hic, laudantium temporibus ipsum cum aspernatur soluta rerum eaque eius magnam beatae recusandae omnis, sit quae illo itaque numquam.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Ipsa eveniet quidem neque maxime? Voluptas perspiciatis dolore vitae hic unde id, officiis consectetur nostrum ut tenetur voluptates odio delectus architecto suscipit.
+            </p>
+        </div>
+
+        <div class="Contact">
+            <h3>Contact</h3>
+
+            <p>23 avenue des Nations Unies 75001 Paris</p>
+
+            <!--Ajouter le logo "téléphone" à gauche du numéro-->
+            <h3>03 20 01 02 03</h3>
+
+            <p>info@ducsman.com</p>
+        
+            <i class="ti-instagram"></i>
+            <i class="ti-twitter"></i>
+            <i class="ti-youtube"></i>
+            <i class="ti-facebook"></i>
+            <i class="ti-pinterest"></i>
+        </div>
+
+        <div class="Mentions">
+            <p>
+                Mentions légales - Conditions Générales de Ventes - Politique de confidentialité - © Copyright 2023 -
+                Ducsman Group
+            </p>
+        </div>
+    </footer>
 </body>
 
 </html>
