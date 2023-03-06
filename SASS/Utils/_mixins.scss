@@ -1,1 +1,5 @@
-//
+@mixin boutton($background-boutton, $txt-boutton, $bordure-boutton) {
+   border: $bordure-boutton;
+   background-color: $background-boutton;
+   color: $txt-boutton;
+}
