@@ -1,1 +1,69 @@
-//
+// Nav bar //
+nav {
+    padding: 30px;
+    width: 20%;
+    min-height: 100vh;
+    background-color: $grisFonce;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    
+    a {
+        text-decoration: none;
+        color: $grisClair;
+        line-height: 1.8em;
+        font-style: $fontTexte;
+        font-size: 0.8em;
+        gap: 0.3em;
+    }
+    ul li {
+        list-style-type: none;
+        
+    }
+   
+
+    .TitreNav {
+        color: $special;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        letter-spacing: 3px;
+        width: 100%;
+    }
+    .SousTitreNav {
+        color : $blanc;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.6em;
+        letter-spacing: 0.5px;
+        gap: 1.5em;
+        font-family: $fontTitre;
+        
+    }
+    .InfosReservation {
+color: $special;
+
+    }
+
+    .infos {
+        text-align: center;
+        line-height: 30px;
+    }
+    
+
+    .Menu {
+        color: $grisClair;
+    }
+    li {
+        color: $grisClair;
+    }
+
+   
+}
+
+h1 {
+    font-family: $fontTitre;
+    font-size: 1.4em;
+}
