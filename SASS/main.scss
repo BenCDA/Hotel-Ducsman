@@ -15,11 +15,21 @@
 
 @import "./Composants/button-formulaire";
 @import "./Composants/buttons-hors-formulaire";
+@import "./Composants/carrousel";
 
+@import "./Layouts/aside";
+@import "./Layouts/footer";
+@import "./Layouts/grid";
+@import "./Layouts/header";
+@import "./Layouts/main";
 @import "./Layouts/menu-burger";
+@import "./Layouts/navigation";
 
 
-@import "./Pages/footer";
+
+@import "./Pages/accueil";
+@import "./Pages/chambre";
+@import "./Pages/contact";
 @import "./Pages/socials";
 
 @import "./Themes/pasbesoin";
