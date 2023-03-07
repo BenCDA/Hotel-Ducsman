@@ -1,21 +1,25 @@
-$background-aside: #222222;
-// Couleur de fond des cotés //
-$background: #1E1E1E;
-// Couleur fond principal // 
-$background-boutton: #AB8A62;
-// Fond du boutton //
-$txt-boutton: white;
-// couleur texte du boutton //
+//Variables pour les polices à utiliser // 
 
+$fontTitre : 'Gilda Display', serif;
+$fontAnnotation : 'Barlow Condensed', sans-serif;
+$fontLien : 'Barlow', sans-serif;
+$fontTexte : 'Barlow', sans-serif;
 
-$texte-couleur: #AB8A62;
-// Couleur du texte // 
+// Différentes couleurs à utiliser //
 
-$margin-body: 0; 
-$font-txt: 'Barlow', sans-serif;
-// Police du texte //
-$font-titres: 'Gilda';
-// Police des titres //
+$marron : #aa8453;
+$buttonMarron : #ab8a62;
+$buttonGris : #3b3b3b;
+$gris : #2b2b2b;
+$grisClair : #8d8d8d;
+$grisFonce : #1b1b1b;
+$grisClairMoyen : #222222;
+$grisFonceMoyen : #1e1e1e;
+$jauneEtoile : #e3a752;
+$blanc : #ffffff;
 
-$bordure-boutton : 1px solid;
-// Création de bordure pour les bouttons //
+// Applications de nos variables préalablements créers sur les titres, bouttons, textes etc //
+$titre : $blanc;
+$button : $buttonMarron;
+$texte : $grisClair;
+$special : $marron;
