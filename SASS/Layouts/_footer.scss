@@ -1,1 +1,12 @@
-//
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: $grisFonceMoyen;
+    color: $grisClair;
+    font-size: 10px;
+    .texteblanc {
+        color: $blanc;
+    }
+    
+   }
+
