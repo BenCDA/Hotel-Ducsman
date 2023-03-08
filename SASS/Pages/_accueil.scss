@@ -7,13 +7,17 @@
 
 
 
-.ChambreSlider img{
-    width: 40%;
-}
+
 
 main{
-    height: 80%;
-    margin-left: 24%;  
+    width: 70%;
+    margin-left: 20%;  
+    margin-right: 10%;
+    padding: 3em 5em 6em 5em;
+}
+
+.ChambreSlider img{
+    width: 40%;
 }
 
 .ImagePiecesHotel img{
@@ -94,55 +98,3 @@ font-family: $fontTexte;
 
 
 
-// Loisirs 
-.LeRestaurant{
-    display: flex;
-   flex-direction: row;
-}
-
-.ExperienceBienEtre{
-    display: flex;
-    flex-direction: row-reverse; 
-}
-
-.Epanouissement{
-    display: flex;
-   flex-direction: row;
-}
-
-.ExperienceCentreAquatique{
-    display: flex;
-    flex-direction: row-reverse; 
-}
-
-h4{
- color: $special;
- font-family: $fontLien ;
- font-size: 15px;
- letter-spacing: 3px;
-}
-
-h3{
-    color: $blanc;
-    font-family: $fontTitre ;
-    font-weight: lighter;
-    font-size: 25px;
-}
-
-p{
-color: $grisClair;
-font-family: $fontTexte;
-}
-
-.DecouverteTxt{
-    padding-left: 20px;
-   
-}
-
-.EnSavoirPlus {
-    background-color: $special;
-    max-width: 50%;
-   
- 
-    
-}
