@@ -1,1 +1,39 @@
-//
+header {
+    position: relative;
+  }
+  
+  .burger {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 2;
+  }
+  
+  .main-nav-burger {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: $grisFonce;
+    width: 20%;
+    min-height: 100vh;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+    z-index: 1;
+  }
+  
+  .main-nav-burger.visible {
+    transform: translateX(0%);
+    position: fixed;
+  }
+  
+  #btn-burger {
+    background-color: $special;
+    border: 0.1em solid;
+}
+.burger .burger-bar {
+    width: 30px;
+    height: 4px;
+    background-color: $grisFonce;
+    display: block;
+    margin: 5px auto;
+  }

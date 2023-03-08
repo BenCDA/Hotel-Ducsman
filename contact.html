@@ -10,49 +10,61 @@
     <link rel="stylesheet" href="/css/flaticons.css">
     <link rel="stylesheet" href="SASS/main.css">
     <link rel="stylesheet" href="css/normalize.css">
+    
 </head>
 
 <body>
+    <!-- Bouton burger -->
 
     <!--Début de la barre de navigation-->
 
-    <nav>
-        <!--Il faut ajouter les 5 étoiles-->
-        <h1 class="TitreNav">
-            D U C S M A N
-        </h1>
+    <header>
+        <button id="btn-burger" class="burger">
+            <span class="burger-bar"></span>
+            <span class="burger-bar"></span>
+            <span class="burger-bar"></span>
+            <!-- Les <span> sont la pour faire apparaître les lignes du boutons burger -->
+        </button>
+        <nav class="main-nav-burger">
 
-        <span class="SousTitreNav">
+            <!--Il faut ajouter les 5 étoiles-->
+            <h1 class="TitreNav">
+                D U C S M A N
+            </h1>
 
-            <span class="espacenav"> D O R M E Z</span>
-            <span class="espacenav"> C O M M E</span>
-            <span class="espacenav"> J A M A I S</span>
-        </span>
+            <span class="SousTitreNav">
 
-        <div class="Menu">
-            <ul>
-                <li><a href="accueil.html" id="Accueil">ACCUEIL</a></li>
+                <span class="espacenav"> D O R M E Z</span>
+                <span class="espacenav"> C O M M E</span>
+                <span class="espacenav"> J A M A I S</span>
+            </span>
 
-                <li><a href="" id="aPropos">A PROPOS</a></li>
+            <div class="Menu">
+                <ul>
+                    <li><a href="accueil.html" id="Accueil">ACCUEIL</a></li>
 
-                <li><a href="chambre.html" id="Chambres&Suites">CHAMBRES & SUITES</a></li>
-                <li><a href="" id="Restaurant">RESTAURANT</a></li>
-                <li><a href="" id="Centre">CENTRE DE BIEN ÊTRE</a></li>
-                <li><a href="" id="Actualite">ACTUALITE</a></li>
-                <li><a href="contact.html" id="Contact">CONTACT</a></li>
-            </ul>
+                    <li><a href="" id="aPropos">A PROPOS</a></li>
 
-            <div class="infos">
-                Informations & Réservations
-                <br>
-                <div class="InfosReservation">
-                    <i class="flaticon-call">03 20 01 02 03</i>
+                    <li><a href="chambre.html" id="Chambres&Suites">CHAMBRES & SUITES</a></li>
+                    <li><a href="" id="Restaurant">RESTAURANT</a></li>
+                    <li><a href="" id="Centre">CENTRE DE BIEN ÊTRE</a></li>
+                    <li><a href="" id="Actualite">ACTUALITE</a></li>
+                    <li><a href="contact.html" id="Contact">CONTACT</a></li>
+                </ul>
+
+                <div class="infos">
+                    Informations & Réservations
+                    <br>
+                    <div class="InfosReservation">
+                        <i class="flaticon-call">03 20 01 02 03</i>
+                    </div>
                 </div>
+                <!--Ajouter en dessous de "Informations & Réservations"-->
             </div>
-            <!--Ajouter en dessous de "Informations & Réservations"-->
-        </div>
 
-    </nav>
+        </nav>
+
+    </header>
     <section>
         <h2>Ducsman</h2>
         <p>Nous sommes à votre disposition pour toute question relative à votre séjour <br> ou pour vous préparer le
@@ -147,6 +159,15 @@
       
 
     </footer>
+
+    <!-- Ici on ajoute la balise script pour lier notre html à nos fichiers JavaScript -->
+
+
+    <!-- Pour link les scripts : comme pour link les .css = appeler les fichiers 1 par 1 -->
+
+    <script src="menu-burger.js"> </script>
+
+    <!-- Refaire une balise script pour appeler le slider.js -->
 
 </body>
 

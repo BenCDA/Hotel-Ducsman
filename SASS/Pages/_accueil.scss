@@ -2,4 +2,150 @@
 
 #Accueil{ 
     color: $special ;
+<<<<<<< HEAD
+=======
+
+}
+
+
+
+.ChambreSlider img{
+    width: 40%;
+}
+
+main{
+    height: 80%;
+    margin-left: 24%;  
+}
+
+.ImagePiecesHotel img{
+    width: 40%; 
+    margin-left: 5%; 
+   height: auto;
+    
+}
+
+.ImagesChambres img{
+    width: 40%;  
+}
+
+.LeRestaurant img{
+    width: 40%;   
+}
+
+.ExperienceBienEtre img{
+    width: 40%;   
+}
+
+.Epanouissement img {
+    width: 40%;   
+}
+
+.ExperienceCentreAquatique img{
+    width: 40%;  
+}
+
+.ExperienceDuLuxe{
+    margin-left: 8% ;
+    display: flex;
+  
+
+}
+
+.Description{
+   color:  $blanc;
+   font-family: $fontTitre;
+   font-weight: lighter;
+   font-size: 35px;
+}
+
+.Hotel-Ducsman{
+    color: $special;
+    font-family: $fontLien;
+    letter-spacing: 4px;
+}
+
+.BienvenueTxt{
+    color: $grisClair;
+
+font-family: $fontTexte;
+}
+
+.ImagePiecesHotel{
+    display: flex;
+
+}
+
+.ImagePiecesHotel img:first-of-type{
+    margin-top: 90px;
+}
+
+.ImagePiecesHotel img:last-of-type{
+    margin-bottom: 90px;
+}
+
+.ImagesChambres {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 100px  ;
+    #roomUn{
+        grid-column: 1 / 3;
+    }
+}
+
+
+
+
+// Loisirs 
+.LeRestaurant{
+    display: flex;
+   flex-direction: row;
+}
+
+.ExperienceBienEtre{
+    display: flex;
+    flex-direction: row-reverse; 
+}
+
+.Epanouissement{
+    display: flex;
+   flex-direction: row;
+}
+
+.ExperienceCentreAquatique{
+    display: flex;
+    flex-direction: row-reverse; 
+}
+
+h4{
+ color: $special;
+ font-family: $fontLien ;
+ font-size: 15px;
+ letter-spacing: 3px;
+}
+
+h3{
+    color: $blanc;
+    font-family: $fontTitre ;
+    font-weight: lighter;
+    font-size: 25px;
+}
+
+p{
+color: $grisClair;
+font-family: $fontTexte;
+}
+
+.DecouverteTxt{
+    padding-left: 20px;
+   
+}
+
+.EnSavoirPlus {
+    background-color: $special;
+    max-width: 50%;
+   
+ 
+    
+>>>>>>> 43ce372780fcb727698b3e2eb8fd2d51d166ee62
 }
