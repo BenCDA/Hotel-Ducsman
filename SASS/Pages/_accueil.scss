@@ -7,13 +7,17 @@
 
 
 
-.ChambreSlider img{
-    width: 40%;
-}
+
 
 main{
-    height: 80%;
-    margin-left: 24%;  
+    width: 70%;
+    margin-left: 20%;  
+    margin-right: 10%;
+    padding: 3em 5em 6em 5em;
+}
+
+.ChambreSlider img{
+    width: 40%;
 }
 
 .ImagePiecesHotel img{
@@ -91,6 +95,6 @@ font-family: $fontTexte;
     }
 }
 
-.blocimg{
-  
-}
+
+
+

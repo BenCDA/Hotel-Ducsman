@@ -1,1 +1,123 @@
-//
+//Grille
+
+
+
+
+.LeRestaurant img {
+    width: 60%;
+
+}
+
+.ExperienceBienEtre img {
+    width: 40%;
+}
+
+.Epanouissement img {
+    width: 40%;
+}
+
+.ExperienceCentreAquatique img {
+    width: 40%;
+}
+
+
+
+.reservation1 {
+    background-image: url(/images/rooms/1.jpg);
+}
+
+.reservation2 {
+    background-image: url(/images/rooms/2.jpg);
+}
+
+// Loisirs 
+
+.LeRestaurant {
+    display: flex;
+    flex-direction: row;
+
+    .Restaurant {
+        width: 50%;
+    }
+}
+
+.ExperienceBienEtre {
+    display: flex;
+    flex-direction: row-reverse;
+
+    .SalonDeMassage {
+        width: 50%;
+    }
+}
+
+.Epanouissement {
+    display: flex;
+    flex-direction: row;
+
+    .SalleDeSport {
+        width: 50%;
+    }
+}
+
+.ExperienceCentreAquatique {
+    display: flex;
+    flex-direction: row-reverse;
+
+    .Piscine {
+        width: 50%;
+    }
+}
+
+h4 {
+    color: $special;
+    font-family: $fontLien ;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+
+h3 {
+    color: $blanc;
+    font-family: $fontTitre ;
+    font-weight: lighter;
+    font-size: 25px;
+}
+
+p {
+    color: $grisClair;
+    font-family: $fontTexte;
+    text-align: justify;
+    margin-bottom: 30px;
+
+
+}
+
+.DecouverteTxt {
+    padding-left: 20px;
+
+}
+
+.EnSavoirPlus {
+    background-color: $special;
+    padding: 10px 20px 10px 20px;
+    font-family: $fontLien ;
+    letter-spacing: 3px;
+    font-size: 10px;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: $blanc;
+}
+
+.Epanouissementdeux {
+    padding-left: 20px;
+}
+
+.CentreAquatique {
+    padding-right: 20px;
+}
+
+.ExperiencesTxt {
+    padding-right: 20px;
+}
