@@ -36,6 +36,8 @@
 
   // Media queries pour afficher le bouton burger uniquement sur les écrans plus petits que 768px // 
   
+/*@media screen and (min-width: 768px) {
+    #btn-burger {
 /*@media only screen and (min-width: 768px) {
     .burger {
       display: none;
@@ -43,8 +45,10 @@
   }
   
  
-@media only screen and (max-width: 767px) {
-    .burger {
+@media screen and (max-width: 400px) {
+    #btn-burger {
       display: block;
+    } taille ecran jusque 400px
+  }*/
     }
   }*/
