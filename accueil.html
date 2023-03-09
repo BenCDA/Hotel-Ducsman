@@ -14,11 +14,14 @@
 
 <body>
     <header>
+        <button id="btn-burger" class="burger">
+            <span class="burger-bar"></span>
+            <span class="burger-bar"></span>
+            <span class="burger-bar"></span>
+            <!-- Les <span> sont la pour faire apparaître les lignes du boutons burger -->
+        </button>
+        <nav class="main-nav-burger">
 
-
-        <!--Début de la barre de navigation-->
-
-        <nav>
             <!--Il faut ajouter les 5 étoiles-->
             <h1 class="TitreNav">
                 D U C S M A N
@@ -34,7 +37,9 @@
             <div class="Menu">
                 <ul>
                     <li><a href="accueil.html" id="Accueil">ACCUEIL</a></li>
+
                     <li><a href="" id="aPropos">A PROPOS</a></li>
+
                     <li><a href="chambre.html" id="Chambres&Suites">CHAMBRES & SUITES</a></li>
                     <li><a href="" id="Restaurant">RESTAURANT</a></li>
                     <li><a href="" id="Centre">CENTRE DE BIEN ÊTRE</a></li>
@@ -51,9 +56,8 @@
                 </div>
                 <!--Ajouter en dessous de "Informations & Réservations"-->
             </div>
+
         </nav>
-
-
     </header>
     <main>
 
@@ -71,8 +75,7 @@
                     L'expérience du luxe
                 </h1>
 
-                <a href="chambre.html" target="_blank">Chambres &
-                    suites</a><!--Premier bouton tout en haut de la page-->
+                <a href="chambre.html" target="_blank">Chambres & suites</a><!--Premier bouton tout en haut de la page-->
 
             </div>
         </div>
@@ -168,9 +171,9 @@
                         <div class="invisible">
                             <div>
                                 <span class="flaticon-bed"></span>
-                                <span class="flaticon-bed"></span>
+                                <span class="flaticon-bath"></span>
                                 <span class="flaticon-breakfast"></span>
-                                <span class="flaticon-"></span>
+                                <span class="flaticon-towel"></span>
                             </div>
                             <div class="lien-invisible">
                                 <a href="chambre.html">
@@ -190,9 +193,9 @@
                         <div class="invisible">
                             <div>
                                 <span class="flaticon-bed"></span>
-                                <span class="flaticon-bed"></span>
+                                <span class="flaticon-bath"></span>
                                 <span class="flaticon-breakfast"></span>
-                                <span class="flaticon-"></span>
+                                <span class="flaticon-towel"></span>
                             </div>
                             <div class="lien-invisible">
                                 <a href="chambre.html">
@@ -212,9 +215,9 @@
                         <div class="invisible">
                             <div>
                                 <span class="flaticon-bed"></span>
-                                <span class="flaticon-bed"></span>
+                                <span class="flaticon-bath"></span>
                                 <span class="flaticon-breakfast"></span>
-                                <span class="flaticon-"></span>
+                                <span class="flaticon-towel"></span>
                             </div>
                             <div class="lien-invisible">
                                 <a href="chambre.html">
@@ -229,120 +232,129 @@
 
         <!--Fin de la section chambres & suites, début de la section "Loisirs"-->
 
-        <div class="Loisirs">
-            <div class="LeRestaurant">
-                <img class="Restaurant" src="images/restaurant/1.jpg" alt="Notre spacieux restaurant">
-                <div class="DecouverteTxt">
-                    <h4>DECOUVERTE</h4>
 
-                    <h3>Le Restaurant</h3>
+        <div class="fondDeux">
+            <div class="blocLoisirs">
+                <div class="Loisirs">
+                    <div class="LeRestaurant">
+                        <img class="Restaurant" src="images/restaurant/1.jpg" alt="Notre spacieux restaurant">
+                        <div class="DecouverteTxt">
+                            <h4>DECOUVERTE</h4>
 
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Doloribus deserunt asperiores, architecto temporibus ex culpa.
-                        Eum debitis beatae molestias consequatur quisquam aliquam natus nisi distinctio, ea illo
-                        quod
-                        porro id.
-                    </p>
+                            <h3>Le Restaurant</h3>
 
-                    <a href=""><span class="EnSavoirPlus">EN SAVOIR PLUS</span></a>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Doloribus deserunt asperiores, architecto temporibus ex culpa.
+                                Eum debitis beatae molestias consequatur quisquam aliquam natus nisi distinctio, ea illo
+                                quod
+                                porro id.
+                            </p>
+
+                            <a href=""><span class="EnSavoirPlus">EN SAVOIR PLUS</span></a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="ExperienceBienEtre">
+                    <img class="SalonDeMassage" src="images/spa/3.jpg" alt="Salon de massage">
+                    <div class="ExperiencesTxt">
+                        <h4>EXPERIENCE</h4>
+
+                        <h3>Centre de bien-être</h3>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Non accusantium laborum laudantium aperiam soluta voluptatibus doloremque veritatis
+                            molestiae
+                            fugiat
+                            maxime inventore obcaecati expedita reiciendis, nemo libero repellendus illum corporis
+                            similique.
+                        </p>
+
+                        <span class="EnSavoirPlus"> <a href="">EN SAVOIR PLUS</a></span>
+                    </div>
+                </div>
+
+
+                <div class="Epanouissement">
+                    <img class="SalleDeSport" src="images/spa/2.jpg" alt="Notre merveilleuse salle de sport">
+                    <div class="Epanouissementdeux">
+                        <h4>EPANOUISSEMENT</h4>
+
+                        <h3>Centre de fitness</h3>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Enim, tempore itaque voluptates sapiente vero magnam.
+                            Itaque voluptatum beatae non, veniam enim, molestiae saepe ullam minus necessitatibus
+                            voluptate
+                            impedit magni.
+                        </p>
+
+                        <a href=""><span class="EnSavoirPlus">EN SAVOIR PLUS</span></a>
+                    </div>
+                </div>
+
+
+                <div class="ExperienceCentreAquatique">
+                    <img class="Piscine" src="images/spa/1.jpg" alt="Notre plus belle piscine">
+                    <div class="CentreAquatique">
+                        <h4>EXPERIENCE</h4>
+
+                        <h3>Centre aquatique</h3>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Eum natus blanditiis magnam illo alias consequuntur placeat, cumque eaque maxime voluptate
+                            veniam.
+                            Ab, atque incidunt porro saepe debitis tempora minima magnam.
+                        </p>
+
+                        <a href=""><span class="EnSavoirPlus">EN SAVOIR PLUS</span></a>
+                    </div>
                 </div>
             </div>
-        </div>
 
-
-        <div class="ExperienceBienEtre">
-            <img class="SalonDeMassage" src="images/spa/3.jpg" alt="Salon de massage">
-            <div class="ExperiencesTxt">
-                <h4>EXPERIENCE</h4>
-
-                <h3>Centre de bien-être</h3>
-
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Non accusantium laborum laudantium aperiam soluta voluptatibus doloremque veritatis
-                    molestiae
-                    fugiat
-                    maxime inventore obcaecati expedita reiciendis, nemo libero repellendus illum corporis
-                    similique.
-                </p>
-
-               <span class="EnSavoirPlus"> <a href="">EN SAVOIR PLUS</a></span>
-            </div>
-        </div>
-
-
-        <div class="Epanouissement">
-            <img class="SalleDeSport" src="images/spa/2.jpg" alt="Notre merveilleuse salle de sport">
-            <div class="Epanouissementdeux">
-                <h4>EPANOUISSEMENT</h4>
-
-                <h3>Centre de fitness</h3>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Enim, tempore itaque voluptates sapiente vero magnam.
-                    Itaque voluptatum beatae non, veniam enim, molestiae saepe ullam minus necessitatibus
-                    voluptate
-                    impedit magni.
-                </p>
-
-                <a href=""><span class="EnSavoirPlus">EN SAVOIR PLUS</span></a>
-            </div>
-        </div>
-
-
-        <div class="ExperienceCentreAquatique">
-            <img class="Piscine" src="images/spa/1.jpg" alt="Notre plus belle piscine">
-            <div class="CentreAquatique">
-                <h4>EXPERIENCE</h4>
-
-                <h3>Centre aquatique</h3>
-
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Eum natus blanditiis magnam illo alias consequuntur placeat, cumque eaque maxime voluptate
-                    veniam.
-                    Ab, atque incidunt porro saepe debitis tempora minima magnam.
-                </p>
-
-                <a href=""><span class="EnSavoirPlus">EN SAVOIR PLUS</span></a>
-            </div>
         </div>
 
         <!--Fin de la section "Loisirs", début de la section Options-->
 
         <div class="LesOptions">
-            <h2 class="Options">Options</h2>
 
             <div class="InfosTel">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum a animi ex doloremque
-                    consequatur
-                    eligendi nesciunt.
-                    <i class="flaticon-call"></i> Informations 03 20 01 02 03
-                </p>
+                <h2 class="Options">Options</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum a animi ex doloremque<br>
+                    consequatur eligendi nesciunt.
+                <div class="IconeTel">
+                    <i class="flaticon-call"></i>
+                    <p class="txtInfos">Informations<br>
+                        <span> 03 20 01 02 03 </span>
+                    </p>
+                </div>
             </div>
+
 
             <div class="PetitDejeuner">
                 <h4>Petit déjeuner</h4>
 
-                <p>30€ / jour</p>
+                <p><span>30€</span> / jour</p>
+                <div class="liste1">
+                    <ul>
+                        <li> <i class="ti-check"></i>Hotel ut nisan the duru</li>
+                        <li> <i class="ti-check"></i>Orci miss natoque vasa ince</li>
+                        <li> <i class="ti-close"></i>Clean sorem ipsum morbin</li>
 
-                <ul>
-                    <li>
-                        <!--Ajouter le logo de validation-->Hotel ut nisan the duru
-                        <!--Ajouter le logo de validation-->Orci miss natoque vasa ince
-                        <!--Ajouter le logo de negation(la croix)-->Clean sorem ipsum morbin
-                    </li>
-                </ul>
+                    </ul>
+                </div>
             </div>
 
             <div class="CoffreFort">
                 <h4>Coffre-fort sécurisé</h4>
 
-                <p>15€ / jour</p>
+                <p><span>15 €</span> / jour</p>
 
                 <ul>
-                    <li>
-                        <!--Ajouter le logo de validation-->Hotel ut nisan the duru
-                        <!--Ajouter le logo de validation-->Orci miss natoque vasa ince
-                        <!--Ajouter le logo de negation(la croix)-->Clean sorem ipsum morbin
+                    <li> <!--Ajouter le logo de validation--><i class="ti-check"></i>Hotel ut nisan the duru</li>
+                    <li> <!--Ajouter le logo de validation--><i class="ti-check"></i>Orci miss natoque vasa ince</li>
+                    <li> <!--Ajouter le logo de negation(la croix)--><i class="ti-close"></i>Clean sorem ipsum morbin
                     </li>
                 </ul>
             </div>
@@ -350,7 +362,7 @@
 
         <!--Fin de la section Options, début de la section Services en +-->
 
-        <div class="ServicesEn+">
+        <div class="ServicesEnplus">
             <h2 class="Services">Services en +</h2>
 
             <div class="Transferts">
@@ -388,7 +400,7 @@
                 <p>Accès Wifi gratuit disponible dans l'ensemble de l'hôtel</p>
             </div>
 
-            <div class="PetitDejeuner">
+            <div class="PetitDejeuner3">
 
                 <h4><i class="flaticon-breakfast"></i> Petit déjeuner</h4>
 
@@ -441,7 +453,6 @@
         </div>
 
     </footer>
-
+    <script src="menu-burger.js"> </script>
 </body>
-
 </html>

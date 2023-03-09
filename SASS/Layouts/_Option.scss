@@ -1,0 +1,119 @@
+// Options accueil
+
+.LesOptions{
+    display: flex;
+    margin-top: 40px;
+    
+}
+
+.Options{
+    color: $blanc;
+    font-family: $fontTitre ;
+    font-weight: lighter;
+}
+
+.InfosTel{
+    margin-right: 90px;
+}
+
+.IconeTel{
+
+   
+  
+    .flaticon-call{
+        color: $special ;
+      
+    }
+
+   
+}
+
+.LesOptions h4{
+    color: $blanc;
+    font-family: $fontTitre;
+    
+}
+
+.PetitDejeuner{
+
+    background-color: $gris;
+    margin-left: 50px;
+    padding: 40px;
+    margin: 20px;
+
+    ul{
+        list-style-type:none ;
+        line-height: 30px;
+    }
+
+    i{
+        color:$special  ;
+       
+    }
+
+    .ti-close{
+        color:$grisClair ;
+    }
+
+    li{
+        color: $grisClair;
+    }
+    .liste1{
+        display: flex;
+        margin-left: 5%;
+    }
+}
+
+.PetitDejeuner span{
+    color: $special ;
+    font-size: 30px;
+    font-family:  $fontTitre;
+    
+}
+
+.CoffreFort{
+    background-color: $gris;
+    margin-left: 50px;
+    padding: 40px;
+    margin: 20px;
+
+    ul{
+        list-style-type:none ;
+        line-height: 30px;
+        
+        
+    }
+   
+    i{
+        color:$special  ;
+        margin-right: 10px;
+    }
+
+    .ti-close{
+        color:$grisClair ;
+    }
+
+    li{
+        color: $grisClair;
+     
+    }
+}
+
+.CoffreFort span{
+    color: $special ;
+    font-size: 30px;
+    font-family:  $fontTitre;
+}
+
+
+.IconeTel{
+    display: flex;
+
+    span{
+        color: $special ;
+    }
+
+    .flaticon-call{
+       padding-top: 30px;
+    }
+}
