@@ -2,6 +2,8 @@
 
 #Accueil{ 
     color: $special ;
+<<<<<<< HEAD
+=======
 
 }
 
@@ -98,3 +100,59 @@ font-family: $fontTexte;
 
 
 
+<<<<<<< HEAD
+// Loisirs 
+.LeRestaurant{
+    display: flex;
+   flex-direction: row;
+}
+
+.ExperienceBienEtre{
+    display: flex;
+    flex-direction: row-reverse; 
+}
+
+.Epanouissement{
+    display: flex;
+   flex-direction: row;
+}
+
+.ExperienceCentreAquatique{
+    display: flex;
+    flex-direction: row-reverse; 
+}
+
+h4{
+ color: $special;
+ font-family: $fontLien ;
+ font-size: 15px;
+ letter-spacing: 3px;
+}
+
+h3{
+    color: $blanc;
+    font-family: $fontTitre ;
+    font-weight: lighter;
+    font-size: 25px;
+}
+
+p{
+color: $grisClair;
+font-family: $fontTexte;
+}
+
+.DecouverteTxt{
+    padding-left: 20px;
+   
+}
+
+.EnSavoirPlus {
+    background-color: $special;
+    max-width: 50%;
+   
+ 
+    
+>>>>>>> 43ce372780fcb727698b3e2eb8fd2d51d166ee62
+}
+=======
+>>>>>>> 1f724de6fbd65bf69c78f62c6f423ceb5e16ac9d
