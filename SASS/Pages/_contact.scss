@@ -1,6 +1,45 @@
 section, main {
     background-color: $grisClairMoyen;
+   width: 70%;
+    margin-left: 20%;  
+    margin-right: 10%;
+    padding: 3em 5em 6em 5em;
+    
+ul {
+    list-style-type: none;
+    li {
+    margin-right: 150px;
+    }
 }
+
+p,
+label {
+    color: $grisClair;
+}
+.contactgauche {
+    color: $grisClair;
+}
+
+    .logossocials {
+        color: $blanc;
+    }
+   
+    }
+
+    input, 
+    textarea {
+        background-color: $grisClairMoyen;
+        border-color: $grisClairMoyen;
+        border: transparent;
+    }
+
+    .map {
+        display: flex;
+        justify-content: center;
+        width: 90%;
+    }
+  
+
 
 #Contact {
     color: $special;
@@ -8,5 +47,70 @@ section, main {
 
 h2 {
     margin: 0;
+    color: $blanc;
+    font-family: $fontTitre;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
 }
 
+.colored {
+    color: $special;
+}
+
+.endtextwhite {
+    color: $blanc;
+}
+
+
+.bloc1 {
+    display: flex;
+    flex-direction: row;
+    .contactgauche {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-right: 3em;
+    }
+    .formulaire {
+        display: flex;
+        flex-direction: column;
+        margin-left: 3em;
+    }
+    
+    a {
+        margin-top: 30px;
+    }
+}
+
+.bloc2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5em;
+    justify-content: space-between;
+
+    .apropos {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 60%;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        margin-right: 10em;
+       
+
+        .lignehaut {
+            display: flex;
+        }
+        .lignecentre {
+            display: flex;  
+        }
+    }
+}
+
+    #telinput {
+        width: 90px;
+    }
