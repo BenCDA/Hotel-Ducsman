@@ -1,0 +1,76 @@
+main{
+    background-color: $grisClair;
+    padding-left: 10%;
+}
+.nom{
+    color:$marron;
+    font-family: $fontTexte;
+    letter-spacing: 4px;
+    padding-top: 3%;
+    font-size: 115%;
+}
+.titre{
+    color: $blanc;
+    font-family: $fontTitre;
+    font-weight: 100;
+    font-size: 250%;
+}
+.description-chambre{
+    text-align: justify;
+    width: 60%;
+   
+    }
+.container-flex{
+display: flex;
+
+}
+.amenagement{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    color: $grisClair;
+    margin-left: 15%;
+   
+    }
+
+.titre-amenagement{
+    display: flex;
+    margin-top:0%;
+    
+}
+.icone-amenagement{
+    width: 35%;
+    margin-right: 30%;
+margin-bottom: 20px;
+
+   
+}
+
+
+
+h2{
+    color: $blanc;
+}
+ul{
+    list-style-type: none;
+}
+    
+.icones-amenagement i{
+color: $marron;
+}
+.check{
+    display:flex;
+    flex-wrap: wrap;
+
+.check-in{
+
+    color:$grisClair
+}
+.check-out{
+    color:$grisClair;
+    
+}
+}
+.check i{
+    color: $marron;
+}
