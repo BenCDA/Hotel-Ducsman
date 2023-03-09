@@ -92,6 +92,7 @@ p {
 }
 
 .DecouverteTxt {
+    padding-right: 20px;
     padding-left: 20px;
 
 }
@@ -111,13 +112,25 @@ a {
 }
 
 .Epanouissementdeux {
+    padding-right: 20px;
     padding-left: 20px;
 }
 
 .CentreAquatique {
     padding-right: 20px;
+    padding-left: 20px;
 }
 
 .ExperiencesTxt {
     padding-right: 20px;
+    padding-left: 20px;
+}
+
+.blocLoisirs{
+    background-color:$gris ;
+}
+
+.fondDeux{
+    background-color: $grisClairMoyen;
+  
 }
