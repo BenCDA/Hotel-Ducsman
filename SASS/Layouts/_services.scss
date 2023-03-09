@@ -1,7 +1,28 @@
 // 
 
-.ServicesEnplus {
-    color: $blanc;
+.ServicesEnplus  {
+   
     font-family: $fontTitre ;
     font-weight: lighter;
+}
+
+.TroisUn{
+    display: flex;
+    flex-direction: row;
+}
+
+.TroisDeux{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.flaticon-world{
+    display: flex;
+    flex-direction: column;
+
+    i{
+        width: 45px;
+    }
+   
 }

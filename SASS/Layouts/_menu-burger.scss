@@ -38,6 +38,9 @@
   
 /*@media screen and (min-width: 768px) {
     #btn-burger {
+/*@media only screen and (min-width: 768px) {
+/*@media only screen and (min-width: 768px) {
+    .burger {
       display: none;
     }
   }
@@ -46,5 +49,5 @@
 @media screen and (max-width: 400px) {
     #btn-burger {
       display: block;
-    } taille ecran jusque 400px
-  }*/
+    }
+  }
