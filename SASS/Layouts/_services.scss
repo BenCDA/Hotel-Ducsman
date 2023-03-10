@@ -1,9 +1,10 @@
 // 
 
-.ServicesEnplus  {
+.ServicesEnplus h2  {
    
     font-family: $fontTitre ;
     font-weight: lighter;
+    font-size: 40px;
 }
 
 .TroisUn{
@@ -11,9 +12,22 @@
     flex-direction: row;
     justify-content: space-between;
 
+
     .Transferts{
-        width: 25 %;
+       max-width: 20%;
+       margin-right: 5%;
     }
+
+.Parking{
+ padding-left: 6%;
+}
+    .RoomService{
+
+       padding-left: 18%;
+   
+        
+    }
+
 }
 
 .TroisDeux{
@@ -23,12 +37,15 @@
 }
 
 
-.flaticon-world{
-    display: flex;
-    flex-direction: column;
-
-    i{
-        width: 45px;
-    }
+.TroisUn span{
+    color: white;
+    font-family: $FontTitre;
+    font-weight: lighter;
+}
    
+
+.TroisDeux span{
+    color: white;
+    font-family: $FontTitre;
+    font-weight: lighter;
 }
