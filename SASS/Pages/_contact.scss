@@ -82,35 +82,3 @@ h2 {
         margin-top: 30px;
     }
 }
-
-.bloc2 {
-    display: flex;
-    flex-direction: row;
-    margin-top: 5em;
-    justify-content: space-between;
-
-    .apropos {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        width: 60%;
-    }
-
-    .contact {
-        display: flex;
-        flex-direction: column;
-        margin-right: 10em;
-       
-
-        .lignehaut {
-            display: flex;
-        }
-        .lignecentre {
-            display: flex;  
-        }
-    }
-}
-
-    #telinput {
-        width: 90px;
-    }
