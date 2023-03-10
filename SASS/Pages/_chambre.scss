@@ -1,128 +1,167 @@
-main{
+main {
     background-color: $grisClair;
     padding-left: 10%;
 }
-.nom{
-    color:$marron;
+
+.nom {
+    color: $marron;
     font-family: $fontTexte;
     letter-spacing: 4px;
     padding-top: 3%;
     font-size: 115%;
 }
-.titre{
+
+.titre {
     color: $blanc;
     font-family: $fontTitre;
     font-weight: 100;
     font-size: 250%;
 }
-.description-chambre{
+
+.description-chambre {
     text-align: justify;
     width: 60%;
-   
-    }
-.container-flex{
-display: flex;
 
 }
-.amenagement{
+
+.container-flex {
+    display: flex;
+
+}
+
+.amenagement {
     display: flex;
     flex-direction: column;
     width: 40%;
     color: $grisClair;
     margin-left: 15%;
-   
-    }
 
-.titre-amenagement{
-    display: flex;
-    margin-top:0%;
-    
 }
-.icone-amenagement{
+
+.titre-amenagement {
+    display: flex;
+    margin-top: 0%;
+
+}
+
+.icone-amenagement {
     width: 35%;
     margin-right: 30%;
-margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
-h2{
+h2 {
     color: $blanc;
 }
-ul{
+
+ul {
     list-style-type: none;
 }
-    
-.icones-amenagement i{
-color: $marron;
-}
-.check{
-    display:flex;
-    flex-wrap: wrap;
-    
-   
 
-.check-in{
-
-    color:$grisClair
-}
-.check-out{
-    margin-left:20%;
-
-color:$grisClair;
-    
-}
-}
-.check i{
+.icones-amenagement i {
     color: $marron;
 }
-.instru{
-    padding-right: 50%;
-}
-.bebe{
-    padding-right: 50%;
-}
-.partie-basse{
+
+.check {
     display: flex;
-  justify-content: space-between;
- 
-    
+    flex-wrap: wrap;
 
-   }
 
-.descriptif{
+
+    .check-in {
+
+        color: $grisClair
+    }
+
+    .check-out {
+        margin-left: 20%;
+
+        color: $grisClair;
+
+    }
+}
+
+.check i {
+    color: $marron;
+}
+
+.instru {
+    padding-right: 50%;
+}
+
+.bebe {
+    padding-right: 50%;
+}
+
+.partie-basse {
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
+
+.descriptif {
     width: 40%;
-    
+
 }
 
-.flaticon-call{
+.flaticon-call {
     color: $grisClair;
 }
-.ti-instagram{
+
+.ti-instagram {
     color: $grisClair;
 }
-.ti-twitter{
+
+.ti-twitter {
     color: $grisClair;
 }
-.ti-youtube{
+
+.ti-youtube {
     color: $grisClair;
+}
+
+.ti-facebook {
+    color: $grisClair;
+}
+
+.ti-pinterest {
+    color: $grisClair;
+}
+
+.photo-haut {
+
+    display: inline-block;
+    position: relative;
+
+    .texte-image p {
+        z-index: 1;
+        position: absolute;
+        text-align: center;
+        font-family: $fontTexte;
+        letter-spacing: 5px;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 30%;
+        color: white;
+        width: 70%;
     }
-    .ti-facebook{
-        color: $grisClair;
+
+    .chambre-deluxe {
+        z-index: 1;
+        position: absolute;
+        text-align: center;
+        margin: 0 auto;
+        left: 40%;
+        right: 60%;
+        top: 20%;
+        color: white;
+        width: 40%;
+        font-size: 400%;
+        font-weight: lighter;
+        letter-spacing: 10px;
+        font-family: $fontTitre;
     }
-    .ti-pinterest{
-        color: $grisClair;
-    }
-    .contact-chambre{
-     align-items: flex-start;
-    }
-    .photo-en-haut{
-        width: 100%;
-    }
-
-
-
-
-
-
-
-
-
+}
