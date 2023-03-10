@@ -82,4 +82,13 @@ h2 {
 
 header {
     overflow-y: hidden;
+    background-color: $grisFonce;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+
+    .bloc1 {
+        display: flex;
+        flex-direction: column;
+    }
 }
