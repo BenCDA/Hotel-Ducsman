@@ -97,9 +97,22 @@ ul {
     display: flex;
     justify-content: space-between;
 
-
-
 }
+
+
+    .reserver {
+        display: flex;
+        justify-content: center;
+        width: 22%;
+        background-color: rgb(97, 96, 96);
+        color: white;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        font-family: $fontLien;
+        font-weight: 500;
+        letter-spacing: 1px;
+    }
+
 
 .descriptif {
     width: 40%;
