@@ -1,12 +1,16 @@
 // Nav bar //
+
+
+
 nav {
     padding: 30px;
-    width: 20%;
-    min-height: 100vh;
+    
+    
     background-color: $grisFonce;
     display: flex;
     flex-direction: column;
     position: fixed;
+    
     
     a {
         text-decoration: none;
@@ -68,7 +72,7 @@ h1 {
     font-size: 1.4em;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 768px) {
    
     nav {
       display: none;
