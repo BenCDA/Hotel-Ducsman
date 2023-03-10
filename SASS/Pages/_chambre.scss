@@ -82,10 +82,21 @@ color:$grisClair;
 }
 .partie-basse{
     display: flex;
-    flex-direction: column;
-padding-right: 60%;
+  justify-content: space-between;
+ 
+    
+
    }
-.flaticon-call{
+
+.descriptif{
+    width: 40%;
+    
+}
+
+
+
+
+ .flaticon-call{
     color: $grisClair;
 }
 .ti-instagram{
