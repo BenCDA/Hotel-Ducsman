@@ -12,7 +12,7 @@
     <title>Accueil</title>
 </head>
 
-<body>
+<body class="colonnes">
     <header>
         <button id="btn-burger" class="burger">
             <span class="burger-bar"></span>
@@ -59,206 +59,280 @@
 
         </nav>
     </header>
-    <main>
+    <div class="colonnedroite">
+        <main>
 
-        <div class="ChambreSlider">
+            <div class="ChambreSlider">
 
-            <div class="slider">
+                <div class="slider">
 
-                <img src="images/slider/2.jpg" alt="Chambre 1">
-                <img src="images/slider/3.jpg" alt="Chambre 2">
-                <span class="arrow prev">&#10094;</span>
-                <span class="arrow next">&#10095;</span>
+                    <img src="images/slider/2.jpg" alt="Chambre 1">
+                    <img src="images/slider/3.jpg" alt="Chambre 2">
+                    <span class="arrow prev">&#10094;</span>
+                    <span class="arrow next">&#10095;</span>
+                </div>
+
+                <div class="InfosChambre">
+                    <!--Il faut ajouter les 5 étoiles-->
+                    <div class="TitreSurImage">
+                        <img src="images/etoiles.png" alt="">
+                        <p class="SousTitre">
+                            Hotêl de luxe à Paris
+                        </p>
+
+                        <h1 class="Titre">
+                            L'EXPERIENCE <BR>DU LUXE
+                        </h1>
+                        <div class="boutonaccueil">
+                            <a href="chambre.html" target="_blank">CHAMBRES &
+                                SUITES</a><!--Premier bouton tout en haut de la page-->
+                        </div>
+                    </div>
+
+                </div>
             </div>
 
-            <div class="InfosChambre">
-                <!--Il faut ajouter les 5 étoiles-->
-                <div class="TitreSurImage">
+            <div class="ExperienceDuLuxe">
+                <div class="Bienvenue">
                     <img src="images/etoiles.png" alt="">
-                    <p class="SousTitre">
-                        Hotêl de luxe à Paris
+                    <p class="Hotel-Ducsman">
+                        HÔTEL DE LUXE DUCSMAN
                     </p>
 
-                    <h1 class="Titre">
-                        L'EXPERIENCE <BR>DU LUXE
-                    </h1>
-                    <div class="boutonaccueil">
-                        <a href="chambre.html" target="_blank">CHAMBRES &
-                            SUITES</a><!--Premier bouton tout en haut de la page-->
-                    </div>
+                    <h2 class="Description">
+                        L'expérience du luxe
+                    </h2>
+
+                    <p class="BienvenueTxt">
+                        Bienvenue dans l'un des hôtels 5 étoiles les mieux notés de Paris. Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. <br><br>
+                        Iste deserunt minus perferendis est suscipit explicabo, illo praesentium voluptates dolor!
+                        Labore voluptate corrupti quaerat consequatur earum laborum blanditiis ullam sequi nulla.
+                    </p>
+
+                </div>
+
+                <div class="ImagePiecesHotel">
+                    <img src="images/rooms/6.jpg" alt="Le restaurant">
+                    <img src="images/rooms/2.jpg" alt="L'une de nos meilleurs chambres">
                 </div>
 
             </div>
-        </div>
 
-        <div class="ExperienceDuLuxe">
-            <div class="Bienvenue">
-                <img src="images/etoiles.png" alt="">
-                <p class="Hotel-Ducsman">
-                    HÔTEL DE LUXE DUCSMAN
-                </p>
+            <!--Fin du Header, début du main-->
 
-                <h2 class="Description">
-                    L'expérience du luxe
-                </h2>
 
-                <p class="BienvenueTxt">
-                    Bienvenue dans l'un des hôtels 5 étoiles les mieux notés de Paris. Lorem ipsum dolor sit amet
-                    consectetur adipisicing elit. <br><br>
-                    Iste deserunt minus perferendis est suscipit explicabo, illo praesentium voluptates dolor!
-                    Labore voluptate corrupti quaerat consequatur earum laborum blanditiis ullam sequi nulla.
-                </p>
+            <!--Début de la section Chambres & Suites-->
 
+            <div class="Chambres">
+                <p class="Ducsman"> DUCSMAN</p>
+
+                <h2 class="Chambres&suites">Chambres & suites</h2>
+
+                <div class="gridContainer">
+                    <div class="gridcont1">
+                        <section class="reservation1">
+                            <a href="chambre.html" class="reservation"
+                                title="Lien vers le détail d'une chambre">RESERVER</a>
+                            <div class="gridLegend1">
+                                <a href="chambre.html" class="price"> 150€ / NUIT</a>
+                                <a href="/pages/chambres.html" title="Lien vers le détail d'une chambre">Suite
+                                    Junior</a>
+                                <br>
+                                <div class="invisible">
+                                    <div>
+                                        <span class="flaticon-bed"></span>
+                                        <span class="flaticon-bath"></span>
+                                        <span class="flaticon-breakfast"></span>
+                                        <span class="flaticon-towel"></span>
+                                    </div>
+                                    <div class="lien-ivisible">
+                                        <a href="chambre.html">
+                                            <span>DÉTAILS<span class="ti-arrow-right"></span></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="reservation2">
+                            <a href="chambre.html" class="reservation"
+                                title="Lien vers le détail d'une chambre">RESERVER</a>
+                            <div class="gridLegend2">
+                                <a href="chambre.html" class="price"> 200€ / NUIT</a>
+                                <a href="/pages/chambres.html" title="Lien vers le détail d'une chambre">Chambre
+                                    familiale</a>
+                                <br>
+                                <div class="invisible">
+                                    <div>
+                                        <span class="flaticon-bed"></span>
+                                        <span class="flaticon-bath"></span>
+                                        <span class="flaticon-breakfast"></span>
+                                        <span class="flaticon-towel"></span>
+                                    </div>
+                                    <div class="lien-ivisible">
+                                        <a href="chambre.html">
+                                            <span>DÉTAILS<span class="ti-arrow-right"></span></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="reservation3">
+                            <a href="chambre.html" class="reservation"
+                                title="Lien vers le détail d'une chambre">RESERVER</a>
+                            <div class="gridLegend3">
+                                <a href="chambre.html" class="price"> 250€ / NUIT</a>
+                                <a href="/pages/chambres.html" title="Lien vers le détail d'une chambre">Chambre
+                                    double</a>
+                                <br>
+                                <div class="invisible">
+                                    <div>
+                                        <span class="flaticon-bed"></span>
+                                        <span class="flaticon-bath"></span>
+                                        <span class="flaticon-breakfast"></span>
+                                        <span class="flaticon-towel"></span>
+                                    </div>
+                                    <div class="lien-invisible">
+                                        <a href="chambre.html">
+                                            <span>DÉTAILS<span class="ti-arrow-right"></span></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <div class="gridcont2">
+                        <section class="reservation4">
+                            <a href="chambre.html" class="reservation"
+                                title="Lien vers le détail d'une chambre">RESERVER</a>
+                            <div class="gridLegend4">
+                                <a href="chambre.html" class="price"> 300€ / NUIT</a>
+                                <a href="/pages/chambres.html" title="Lien vers le détail d'une chambre">Chambre
+                                    deluxe</a>
+                                <br>
+                                <div class="invisible">
+                                    <div>
+                                        <span class="flaticon-bed"></span>
+                                        <span class="flaticon-bath"></span>
+                                        <span class="flaticon-breakfast"></span>
+                                        <span class="flaticon-towel"></span>
+                                    </div>
+                                    <div class="lien-invisible">
+                                        <a href="chambre.html">
+                                            <span>DÉTAILS<span class="ti-arrow-right"></span></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="reservation5">
+                            <a href="chambre.html" class="reservation"
+                                title="Lien vers le détail d'une chambre">RESERVER</a>
+                            <div class="gridLegend5">
+                                <a href="chambre.html" class="price"> 150€ / NUIT</a>
+                                <a href="/pages/chambres.html" title="Lien vers le détail d'une chambre">Chambre
+                                    supérieur</a>
+                                <br>
+                                <div class="invisible">
+                                    <div>
+                                        <span class="flaticon-bed"></span>
+                                        <span class="flaticon-bath"></span>
+                                        <span class="flaticon-breakfast"></span>
+                                        <span class="flaticon-towel"></span>
+                                    </div>
+                                    <div class="lien-invisible">
+                                        <a href="chambre.html">
+                                            <span>DÉTAILS<span class="ti-arrow-right"></span></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
             </div>
-
-            <div class="ImagePiecesHotel">
-                <img src="images/rooms/6.jpg" alt="Le restaurant">
-                <img src="images/rooms/2.jpg" alt="L'une de nos meilleurs chambres">
-            </div>
-
-        </div>
-
-        <!--Fin du Header, début du main-->
+            <!--Fin de la section chambres & suites, début de la section "Loisirs"-->
 
 
-        <!--Début de la section Chambres & Suites-->
+            <div class="fondDeux">
+                <div class="blocLoisirs">
+                    <div class="Loisirs">
+                        <div class="LeRestaurant">
+                            <img class="Restaurant" src="images/restaurant/1.jpg" alt="Notre spacieux restaurant">
+                            <div class="DecouverteTxt">
+                                <h4>DECOUVERTE</h4>
 
-        <div class="Chambres">
-            <p class="Ducsman"> DUCSMAN</p>
+                                <h3>Le Restaurant</h3>
 
-            <h2 class="Chambres&suites">Chambres & suites</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Doloribus deserunt asperiores, architecto temporibus ex culpa.
+                                    Eum debitis beatae molestias consequatur quisquam aliquam natus nisi distinctio, ea
+                                    illo
+                                    quod
+                                    porro id.
+                                </p>
 
-            <div class="gridContainer">
-                <section class="reservation1">
-                    <a href="chambre.html" class="reservation" title="Lien vers le détail d'une chambre">RESERVER</a>
-                    <div class="gridLegend1">
-                        <a href="chambre.html" class="price"> 150€ / NUIT</a>
-                        <a href="/pages/chambres.html" title="Lien vers le détail d'une chambre">Suite Junior</a>
-                        <br>
-                        <div class="invisible">
-                            <div>
-                                <span class="flaticon-bed"></span>
-                                <span class="flaticon-bath"></span>
-                                <span class="flaticon-breakfast"></span>
-                                <span class="flaticon-towel"></span>
-                            </div>
-                            <div class="lien-ivisible">
-                                <a href="chambre.html">
-                                    <span>DÉTAILS<span class="ti-arrow-right"></span></span>
-                                </a>
+                                <a href=""><span class="EnSavoirPlus">EN SAVOIR PLUS</span></a>
                             </div>
                         </div>
                     </div>
-                </section>
-
-                <section class="reservation2">
-                    <a href="chambre.html" class="reservation" title="Lien vers le détail d'une chambre">RESERVER</a>
-                    <div class="gridLegend2">
-                        <a href="chambre.html" class="price"> 200€ / NUIT</a>
-                        <a href="/pages/chambres.html" title="Lien vers le détail d'une chambre">Chambre familiale</a>
-                        <br>
-                        <div class="invisible">
-                            <div>
-                                <span class="flaticon-bed"></span>
-                                <span class="flaticon-bath"></span>
-                                <span class="flaticon-breakfast"></span>
-                                <span class="flaticon-towel"></span>
-                            </div>
-                            <div class="lien-ivisible">
-                                <a href="chambre.html">
-                                    <span>DÉTAILS<span class="ti-arrow-right"></span></span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <section class="reservation3">
-                    <a href="chambre.html" class="reservation" title="Lien vers le détail d'une chambre">RESERVER</a>
-                    <div class="gridLegend3">
-                        <a href="chambre.html" class="price"> 250€ / NUIT</a>
-                        <a href="/pages/chambres.html" title="Lien vers le détail d'une chambre">Chambre double</a>
-                        <br>
-                        <div class="invisible">
-                            <div>
-                                <span class="flaticon-bed"></span>
-                                <span class="flaticon-bath"></span>
-                                <span class="flaticon-breakfast"></span>
-                                <span class="flaticon-towel"></span>
-                            </div>
-                            <div class="lien-invisible">
-                                <a href="chambre.html">
-                                    <span>DÉTAILS<span class="ti-arrow-right"></span></span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <section class="reservation4">
-                    <a href="chambre.html" class="reservation" title="Lien vers le détail d'une chambre">RESERVER</a>
-                    <div class="gridLegend4">
-                        <a href="chambre.html" class="price"> 300€ / NUIT</a>
-                        <a href="/pages/chambres.html" title="Lien vers le détail d'une chambre">Chambre deluxe</a>
-                        <br>
-                        <div class="invisible">
-                            <div>
-                                <span class="flaticon-bed"></span>
-                                <span class="flaticon-bath"></span>
-                                <span class="flaticon-breakfast"></span>
-                                <span class="flaticon-towel"></span>
-                            </div>
-                            <div class="lien-invisible">
-                                <a href="chambre.html">
-                                    <span>DÉTAILS<span class="ti-arrow-right"></span></span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <section class="reservation5">
-                    <a href="chambre.html" class="reservation" title="Lien vers le détail d'une chambre">RESERVER</a>
-                    <div class="gridLegend5">
-                        <a href="chambre.html" class="price"> 150€ / NUIT</a>
-                        <a href="/pages/chambres.html" title="Lien vers le détail d'une chambre">Chambre supérieur</a>
-                        <br>
-                        <div class="invisible">
-                            <div>
-                                <span class="flaticon-bed"></span>
-                                <span class="flaticon-bath"></span>
-                                <span class="flaticon-breakfast"></span>
-                                <span class="flaticon-towel"></span>
-                            </div>
-                            <div class="lien-invisible">
-                                <a href="chambre.html">
-                                    <span>DÉTAILS<span class="ti-arrow-right"></span></span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-            </div>
-        </div>
-
-        <!--Fin de la section chambres & suites, début de la section "Loisirs"-->
 
 
-        <div class="fondDeux">
-            <div class="blocLoisirs">
-                <div class="Loisirs">
-                    <div class="LeRestaurant">
-                        <img class="Restaurant" src="images/restaurant/1.jpg" alt="Notre spacieux restaurant">
-                        <div class="DecouverteTxt">
-                            <h4>DECOUVERTE</h4>
+                    <div class="ExperienceBienEtre">
+                        <img class="SalonDeMassage" src="images/spa/3.jpg" alt="Salon de massage">
+                        <div class="ExperiencesTxt">
+                            <h4>EXPERIENCE</h4>
 
-                            <h3>Le Restaurant</h3>
+                            <h3>Centre de bien-être</h3>
 
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Doloribus deserunt asperiores, architecto temporibus ex culpa.
-                                Eum debitis beatae molestias consequatur quisquam aliquam natus nisi distinctio, ea illo
-                                quod
-                                porro id.
+                                Non accusantium laborum laudantium aperiam soluta voluptatibus doloremque veritatis
+                                molestiae
+                                fugiat
+                                maxime inventore obcaecati expedita reiciendis, nemo libero repellendus illum corporis
+                                similique.
+                            </p>
+
+                            <span class="EnSavoirPlus"> <a href="">EN SAVOIR PLUS</a></span>
+                        </div>
+                    </div>
+
+
+                    <div class="Epanouissement">
+                        <img class="SalleDeSport" src="images/spa/2.jpg" alt="Notre merveilleuse salle de sport">
+                        <div class="Epanouissementdeux">
+                            <h4>EPANOUISSEMENT</h4>
+
+                            <h3>Centre de fitness</h3>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Enim, tempore itaque voluptates sapiente vero magnam.
+                                Itaque voluptatum beatae non, veniam enim, molestiae saepe ullam minus necessitatibus
+                                voluptate
+                                impedit magni.
+                            </p>
+
+                            <a href=""><span class="EnSavoirPlus">EN SAVOIR PLUS</span></a>
+                        </div>
+                    </div>
+
+
+                    <div class="ExperienceCentreAquatique">
+                        <img class="Piscine" src="images/spa/1.jpg" alt="Notre plus belle piscine">
+                        <div class="CentreAquatique">
+                            <h4>EXPERIENCE</h4>
+
+                            <h3>Centre aquatique</h3>
+
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Eum natus blanditiis magnam illo alias consequuntur placeat, cumque eaque maxime
+                                voluptate
+                                veniam.
+                                Ab, atque incidunt porro saepe debitis tempora minima magnam.
                             </p>
 
                             <a href=""><span class="EnSavoirPlus">EN SAVOIR PLUS</span></a>
@@ -266,215 +340,159 @@
                     </div>
                 </div>
 
+            </div>
 
-                <div class="ExperienceBienEtre">
-                    <img class="SalonDeMassage" src="images/spa/3.jpg" alt="Salon de massage">
-                    <div class="ExperiencesTxt">
-                        <h4>EXPERIENCE</h4>
+            <!--Fin de la section "Loisirs", début de la section Options-->
 
-                        <h3>Centre de bien-être</h3>
+            <div class="LesOptions">
 
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Non accusantium laborum laudantium aperiam soluta voluptatibus doloremque veritatis
-                            molestiae
-                            fugiat
-                            maxime inventore obcaecati expedita reiciendis, nemo libero repellendus illum corporis
-                            similique.
+                <div class="InfosTel">
+                    <h2 class="Options">Options</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum a animi ex doloremque<br>
+                        consequatur eligendi nesciunt.
+                    <div class="IconeTel">
+                        <i class="flaticon-call"></i>
+                        <p class="txtInfos">Informations<br>
+                            <span> 03 20 01 02 03 </span>
                         </p>
-
-                        <span class="EnSavoirPlus"> <a href="">EN SAVOIR PLUS</a></span>
                     </div>
                 </div>
 
 
-                <div class="Epanouissement">
-                    <img class="SalleDeSport" src="images/spa/2.jpg" alt="Notre merveilleuse salle de sport">
-                    <div class="Epanouissementdeux">
-                        <h4>EPANOUISSEMENT</h4>
+                <div class="PetitDejeuner">
+                    <h4>Petit déjeuner</h4>
 
-                        <h3>Centre de fitness</h3>
+                    <p><span>30€</span> /jour</p>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Enim, tempore itaque voluptates sapiente vero magnam.
-                            Itaque voluptatum beatae non, veniam enim, molestiae saepe ullam minus necessitatibus
-                            voluptate
-                            impedit magni.
-                        </p>
+                    <ul>
+                        <li> <i class="ti-check"></i>Hotel ut nisan the duru</li>
+                        <li> <i class="ti-check"></i>Orci miss natoque vasa ince</li>
+                        <li> <i class="ti-close"></i>Clean sorem ipsum morbin</li>
 
-                        <a href=""><span class="EnSavoirPlus">EN SAVOIR PLUS</span></a>
+                    </ul>
+
+                </div>
+
+                <div class="CoffreFort">
+                    <h4>Coffre-fort sécurisé</h4>
+
+                    <p><span>15 €</span> / jour</p>
+
+                    <ul>
+                        <li> <i class="ti-check"></i>Hotel ut nisan the duru</li>
+                        <li> <i class="ti-check"></i>Orci miss natoque vasa ince</li>
+                        <li> <i class="ti-close"></i>Clean sorem ipsum morbin
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!--Fin de la section Options, début de la section Services en +-->
+
+            <div class="ServicesEnplus">
+                <h2 class="Services">Services en +</h2>
+
+                <div class="TroisUn">
+                    <div class="Transferts">
+
+                        <h4><i class="flaticon-world"></i><span>Transferts</span></h4>
+
+                        <p>Nous pouvons venir vous chercher directement à l'aéroport en voiture individuelle</p>
+                    </div>
+
+                    <div class="Parking">
+
+                        <h4><i class="flaticon-car"></i><span>Parking</span></h4>
+
+                        <p>Une place de parking peut vous être réservée</p>
+                    </div>
+
+                    <div class="RoomService">
+
+                        <h4><i class="flaticon-bed"></i><span>Room Service</span> </h4>
+
+                        <p>Nous nous occupons du nettoyage de la chambre et de l'entretien de vos vêtements</p>
                     </div>
                 </div>
 
 
-                <div class="ExperienceCentreAquatique">
-                    <img class="Piscine" src="images/spa/1.jpg" alt="Notre plus belle piscine">
-                    <div class="CentreAquatique">
-                        <h4>EXPERIENCE</h4>
+                <div class="TroisDeux">
+                    <div class="Piscine">
 
-                        <h3>Centre aquatique</h3>
+                        <h4><i class="flaticon-swimming"></i><span>Piscine</span></h4>
 
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Eum natus blanditiis magnam illo alias consequuntur placeat, cumque eaque maxime voluptate
-                            veniam.
-                            Ab, atque incidunt porro saepe debitis tempora minima magnam.
-                        </p>
+                        <p>Une piscine chauffée est à votre disposition</p>
+                    </div>
 
-                        <a href=""><span class="EnSavoirPlus">EN SAVOIR PLUS</span></a>
+                    <div class="Internet">
+
+                        <h4><i class="flaticon-wifi"></i><span>Accès internet</span></h4>
+
+                        <p>Accès Wifi gratuit disponible dans l'ensemble de l'hôtel</p>
+                    </div>
+
+                    <div class="PetitDejeuner3">
+
+                        <h4><i class="flaticon-breakfast"></i><span>Petit déjeuner</span></h4>
+
+                        <p>Le restaurant vous propose tous les matins, un buffet continental</p>
                     </div>
                 </div>
             </div>
 
-        </div>
+            <div class="bloc2">
+                <div class="apropos">
+                    <h2>A propos de notre hôtel</h2>
 
-        <!--Fin de la section "Loisirs", début de la section Options-->
-
-        <div class="LesOptions">
-
-            <div class="InfosTel">
-                <h2 class="Options">Options</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum a animi ex doloremque<br>
-                    consequatur eligendi nesciunt.
-                <div class="IconeTel">
-                    <i class="flaticon-call"></i>
-                    <p class="txtInfos">Informations<br>
-                        <span> 03 20 01 02 03 </span>
+                    <p>Le seul hôtel 5 étoiles de Paris. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Minus expedita explicabo hic, laudantium temporibus ipsum cum aspernatur soluta rerum eaque eius
+                        magnam
+                        beatae recusandae omnis, sit quae illo itaque numquam.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Ipsa eveniet quidem neque maxime? Voluptas perspiciatis dolore vitae hic unde id, officiis
+                        consectetur
+                        nostrum ut tenetur voluptates odio delectus architecto suscipit.
                     </p>
                 </div>
-            </div>
 
 
-            <div class="PetitDejeuner">
-                <h4>Petit déjeuner</h4>
+                <div class="Contact">
+                    <h2>Contact</h2>
 
-                <p><span>30€</span> /jour</p>
 
-                <ul>
-                    <li> <i class="ti-check"></i>Hotel ut nisan the duru</li>
-                    <li> <i class="ti-check"></i>Orci miss natoque vasa ince</li>
-                    <li> <i class="ti-close"></i>Clean sorem ipsum morbin</li>
+                    <p><br><strong>23 avenue des Nations Unies<br> 75001 Paris</strong></p>
 
-                </ul>
+                    <div class="telEmail">
+                        <span class="endtextwhite"> <i class="flaticon-call"></i> 03 20 01 02 03 <br></span>
+                        info@ducsman.com
 
-            </div>
+                    </div>
 
-            <div class="CoffreFort">
-                <h4>Coffre-fort sécurisé</h4>
+                    <div class="logossocials">
 
-                <p><span>15 €</span> / jour</p>
-
-                <ul>
-                    <li> <i class="ti-check"></i>Hotel ut nisan the duru</li>
-                    <li> <i class="ti-check"></i>Orci miss natoque vasa ince</li>
-                    <li> <i class="ti-close"></i>Clean sorem ipsum morbin
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-        <!--Fin de la section Options, début de la section Services en +-->
-
-        <div class="ServicesEnplus">
-            <h2 class="Services">Services en +</h2>
-
-            <div class="TroisUn">
-                <div class="Transferts">
-
-                    <h4><i class="flaticon-world"></i><span>Transferts</span></h4>
-
-                    <p>Nous pouvons venir vous chercher directement à l'aéroport en voiture individuelle</p>
-                </div>
-
-                <div class="Parking">
-
-                    <h4><i class="flaticon-car"></i><span>Parking</span></h4>
-
-                    <p>Une place de parking peut vous être réservée</p>
-                </div>
-
-                <div class="RoomService">
-
-                    <h4><i class="flaticon-bed"></i><span>Room Service</span> </h4>
-
-                    <p>Nous nous occupons du nettoyage de la chambre et de l'entretien de vos vêtements</p>
+                        <i class="ti-instagram"></i>
+                        <i class="ti-twitter"></i>
+                        <i class="ti-youtube"></i>
+                        <i class="ti-facebook"></i>
+                        <i class="ti-pinterest"></i>
+                    </div>
                 </div>
             </div>
+        </main>
 
+        <footer>
 
-            <div class="TroisDeux">
-                <div class="Piscine">
-
-                    <h4><i class="flaticon-swimming"></i><span>Piscine</span></h4>
-
-                    <p>Une piscine chauffée est à votre disposition</p>
-                </div>
-
-                <div class="Internet">
-
-                    <h4><i class="flaticon-wifi"></i><span>Accès internet</span></h4>
-
-                    <p>Accès Wifi gratuit disponible dans l'ensemble de l'hôtel</p>
-                </div>
-
-                <div class="PetitDejeuner3">
-
-                    <h4><i class="flaticon-breakfast"></i><span>Petit déjeuner</span></h4>
-
-                    <p>Le restaurant vous propose tous les matins, un buffet continental</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="bloc2">
-            <div class="apropos">
-                <h2>A propos de notre hôtel</h2>
-
-                <p>Le seul hôtel 5 étoiles de Paris. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Minus expedita explicabo hic, laudantium temporibus ipsum cum aspernatur soluta rerum eaque eius
-                    magnam
-                    beatae recusandae omnis, sit quae illo itaque numquam.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Ipsa eveniet quidem neque maxime? Voluptas perspiciatis dolore vitae hic unde id, officiis
-                    consectetur
-                    nostrum ut tenetur voluptates odio delectus architecto suscipit.
+            <div class="Mentions">
+                <p>
+                    Mentions légales - Conditions Générales de Ventes - Politique de confidentialité - © Copyright 2023
+                    -
+                    Ducsman Group
                 </p>
+
             </div>
 
-
-            <div class="Contact">
-                <h2>Contact</h2>
-
-                
-                <p><br><strong>23 avenue des Nations Unies<br> 75001 Paris</strong></p>
-
-                <div class="telEmail">
-                <span class="endtextwhite"> <i class="flaticon-call"></i> 03 20 01 02 03 <br ></span> info@ducsman.com
-               
-</div>
-
-                <div class="logossocials">
-
-                    <i class="ti-instagram"></i>
-                    <i class="ti-twitter"></i>
-                    <i class="ti-youtube"></i>
-                    <i class="ti-facebook"></i>
-                    <i class="ti-pinterest"></i>
-                </div>
-            </div>
-        </div>
-    </main>
-
-    <footer>
-
-        <div class="Mentions">
-            <p>
-                Mentions légales - Conditions Générales de Ventes - Politique de confidentialité - © Copyright 2023
-                -
-                Ducsman Group
-            </p>
-
-        </div>
-
-    </footer>
+        </footer>
+    </div>
     <script src="menu-burger.js"> </script>
     <script src="slider.js"> </script>
 </body>
