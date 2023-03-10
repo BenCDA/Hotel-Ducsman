@@ -1,19 +1,22 @@
-const slider = document.querySelector('#slider');
-const first = document.querySelector('#firstSlider');
-const second = document.querySelector('#secondSlider');
-let currentPosition = 0;
+const images = document.querySelectorAll('.slider img');
+const prevArrow = document.querySelector('.slider .prev');
+const nextArrow = document.querySelector('.slider .next');
+let index = 0;
 
-first.addEventListener('click', () => {
-    if (currentPosition < -100) {
-        currentPosition -= 100;
-        slider.style.transform = 'translateX(${currentPosition}%)';
-    }
-});
+function changeImage() {
+  images[index].classList.remove('active');
+  index = (index + 1) % images.length;
+  images[index].classList.add('active');
+}
 
-second.addEventListener('click', () => {
-    if (currentPosition < 0) {
-        currentPosition += 100;
-        slider.style.transform = 'translateX(${currentPosition}%)';
-    }
-});
+function showPrevImage() {
+  images[index].classList.remove('active');
+  index = (index - 1 + images.length) % images.length;
+  images[index].classList.add('active');
+}
 
+prevArrow.addEventListener('click', showPrevImage);
+nextArrow.addEventListener('click', changeImage);
+
+images[index].classList.add('active');
+setInterval(changeImage, 5000);

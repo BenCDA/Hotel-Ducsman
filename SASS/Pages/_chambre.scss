@@ -42,11 +42,7 @@ display: flex;
     width: 35%;
     margin-right: 30%;
 margin-bottom: 20px;
-
-   
 }
-
-
 
 h2{
     color: $blanc;
@@ -61,13 +57,17 @@ color: $marron;
 .check{
     display:flex;
     flex-wrap: wrap;
+    
+   
 
 .check-in{
 
     color:$grisClair
 }
 .check-out{
-    color:$grisClair;
+    margin-left:20%;
+
+color:$grisClair;
     
 }
 }
