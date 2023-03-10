@@ -1,12 +1,16 @@
 // Nav bar //
+
+
+
 nav {
     padding: 30px;
-    width: 20%;
-    min-height: 100vh;
+    
+    
     background-color: $grisFonce;
     display: flex;
     flex-direction: column;
     position: fixed;
+    
     
     a {
         text-decoration: none;
