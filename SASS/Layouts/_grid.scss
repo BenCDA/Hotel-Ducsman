@@ -194,3 +194,10 @@ a {
     background-color: $grisClairMoyen;
   
 }
+
+// Bien mettre la nav bar et le contenu //
+.colonnes {
+display: grid;
+grid-template-columns: 20% 80%;
+height: auto;
+}
