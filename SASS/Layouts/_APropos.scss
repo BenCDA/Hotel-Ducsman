@@ -3,13 +3,19 @@
     display: flex;
     flex-direction: row;
     margin-top: 5em;
-    justify-content: space-between;
+    justify-content: space-between ;
 
     .apropos {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         width: 60%;
+
+        p{
+            padding-right: 15%;
+            line-height: 170%;
+            
+        }
     }
 
     .contact {
@@ -29,9 +35,7 @@
         
     }
 
-    p{
-        font-family: $fontTexte ;
-    }
+
 }
 
     #telinput {
@@ -51,4 +55,18 @@
 
     .logossocials{
         margin-top: 15px;
+    }
+
+    .telEmail{
+        font-family: $fontTitre ;
+        color: white;
+        
+        span{
+            font-size: 20px;
+       
+        }
+
+        .flaticon-call{
+            color: white;
+        }
     }
