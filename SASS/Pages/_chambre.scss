@@ -32,17 +32,12 @@ main {
 .amenagement {
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 50%;
     color: $grisClair;
     margin-left: 15%;
 
 }
 
-.titre-amenagement {
-    display: flex;
-    margin-top: 0%;
-
-}
 
 .icone-amenagement {
     width: 35%;
@@ -54,12 +49,22 @@ h2 {
     color: $blanc;
 }
 
-ul {
+.Amé {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     list-style-type: none;
+    padding: 0;
+
+    li {
+        margin-right: 0;
+        line-height: 35px;
+    }
 }
 
 .icones-amenagement i {
     color: $marron;
+    margin-right: 5%;
 }
 
 .check {
@@ -67,16 +72,29 @@ ul {
     flex-wrap: wrap;
 
 
-
     .check-in {
+        color: $grisClair;
 
-        color: $grisClair
+        h2 {
+
+
+            font-family: $fontTitre;
+
+            font-weight: 100;
+        }
     }
 
     .check-out {
         margin-left: 20%;
 
         color: $grisClair;
+
+        h2 {
+
+            font-family: $fontTitre;
+
+            font-weight: lighter;
+        }
 
     }
 }
@@ -85,12 +103,38 @@ ul {
     color: $marron;
 }
 
+.padding {
+    padding: 80px;
+}
+
 .instru {
-    padding-right: 50%;
+    width: 55%;
+
+    h2 {
+        font-family: $fontTitre;
+
+        font-weight: lighter;
+
+    }
+}
+
+.animaux {
+    h2 {
+        font-family: $fontTitre;
+
+        font-weight: lighter;
+    }
 }
 
 .bebe {
     padding-right: 50%;
+
+    h2 {
+        font-family: $fontTitre;
+
+        font-weight: lighter;
+    }
+
 }
 
 .partie-basse {
@@ -100,18 +144,18 @@ ul {
 }
 
 
-    .reserver {
-        display: flex;
-        justify-content: center;
-        width: 22%;
-        background-color: rgb(97, 96, 96);
-        color: white;
-        padding-top: 1%;
-        padding-bottom: 1%;
-        font-family: $fontLien;
-        font-weight: 500;
-        letter-spacing: 1px;
-    }
+.reserver {
+    display: flex;
+    justify-content: center;
+    width: 22%;
+    background-color: rgb(97, 96, 96);
+    color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-family: $fontLien;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
 
 
 .descriptif {
@@ -144,6 +188,11 @@ ul {
 }
 
 .photo-haut {
+    height: 100vh;
+    background-image: url(../../images/rooms/1.jpg);
+    position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
     display: inline-block;
     position: relative;
@@ -157,16 +206,21 @@ ul {
 
     .texte-image p {
         z-index: 1;
-        position: absolute;
-        text-align: center;
-        font-family: $fontTexte;
-        letter-spacing: 5px;
-        margin: 0 auto;
-        left: 0;
-        right: 0;
-        top: 30%;
-        color: white;
-        width: 70%;
+
+        p {
+            z-index: 1;
+            position: absolute;
+            text-align: center;
+            font-family: $fontTexte;
+            letter-spacing: 5px;
+            margin: 0 auto;
+            left: 0;
+            right: 0;
+            top: 30%;
+            color: white;
+            font-weight: bolder;
+            width: 70%;
+        }
     }
 
     .chambre-deluxe {
