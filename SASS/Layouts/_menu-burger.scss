@@ -3,7 +3,7 @@
     top: 0;
     left: 0;
     background-color: $grisFonce;
-    width: 100%;
+    width: 20%;
     min-height: 100vh;
     transform: translateX(0%);
     transition: transform 0.3s ease-in-out;
@@ -39,7 +39,7 @@
     .main-nav-burger.visible {
       display: block;
       position:fixed;
-      width: 70%;
+      width: 80%;
       z-index: 1;
       
   }
