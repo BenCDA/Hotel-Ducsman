@@ -10,8 +10,7 @@
 .TroisUn{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-
+  justify-content: space-between;
 
     .Transferts{
        max-width: 20%;
@@ -22,13 +21,8 @@
  padding-left: 6%;
 }
     .RoomService{
-
-       padding-left: 18%;
-   
-        
+       padding-left: 18%
     }
-
-        width: 25% ;
        }
 
 
@@ -41,13 +35,10 @@
 
 .TroisUn span{
     color: white;
-    font-family: $FontTitre;
-    font-weight: lighter;
 }
+
    
 
 .TroisDeux span{
     color: white;
-    font-family: $FontTitre;
-    font-weight: lighter;
 }
