@@ -1,4 +1,79 @@
-//Grille
+//boite d'image Grid
+
+
+.gridContainer {
+ 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 5vw);
+    grid-gap: 60px;
+}
+
+.gridContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.reservation1  {
+    background-image: url(/images/rooms/1.jpg);
+  
+    .gridLegend1{
+        grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 3;}
+}
+
+
+
+
+.reservation2 {
+    background-image: url(/images/rooms/2.jpg);
+    
+    margin-right: 50px;
+
+    .gridLegend2{
+        grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+}
+
+.reservation3{
+    background-image: url(/images/rooms/3.jpg);
+    
+    margin-right: 50px;
+
+    .gridLegend3{
+        grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+}
+
+.reservation4{
+    background-image: url(/images/rooms/4.jpg);
+ 
+    margin-right: 50px;
+}
+
+.reservation5{
+    background-image: url(/images/rooms/5.jpg);
+  
+    margin-right: 50px;
+}
+
+
+
+
+
+
+
+
+// Loisirs 
 
 .LeRestaurant img {
     width: 60%;
@@ -17,36 +92,6 @@
     width: 40%;
 }
 
-
-.reservation1 {
-    background-image: url(/images/rooms/1.jpg);
-  
-}
-
-.reservation2 {
-    background-image: url(/images/rooms/2.jpg);
-    background-size:contain;
-    margin-right: 50px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Loisirs 
 
 .LeRestaurant {
     display: flex;
@@ -148,4 +193,11 @@ a {
 .fondDeux{
     background-color: $grisClairMoyen;
   
+}
+
+// Bien mettre la nav bar et le contenu //
+.colonnes {
+display: grid;
+grid-template-columns: 20% 80%;
+height: auto;
 }
