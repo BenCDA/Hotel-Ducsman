@@ -82,15 +82,41 @@ color:$grisClair;
 }
 .partie-basse{
     display: flex;
-    flex-direction: column;
-padding-right: 60%;
+  justify-content: space-between;
+ 
+    
+
    }
+
+.descriptif{
+    width: 40%;
+    
+}
+
 .flaticon-call{
     color: $grisClair;
 }
 .ti-instagram{
     color: $grisClair;
 }
+.ti-twitter{
+    color: $grisClair;
+}
+.ti-youtube{
+    color: $grisClair;
+    }
+    .ti-facebook{
+        color: $grisClair;
+    }
+    .ti-pinterest{
+        color: $grisClair;
+    }
+    .contact-chambre{
+     align-items: flex-start;
+    }
+
+
+
 
 
 
