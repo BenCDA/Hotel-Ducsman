@@ -194,9 +194,17 @@ h2 {
     background-repeat: no-repeat;
     background-size: cover;
 
-    .texte-image {
-        display: flex;
-        flex-direction: column;
+    display: inline-block;
+    position: relative;
+
+    .photo-en-haut{
+        
+      
+       width: 100% ;
+        
+    }
+
+    .texte-image p {
         z-index: 1;
 
         p {

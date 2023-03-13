@@ -12,7 +12,7 @@
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(4, 5vw);
-    grid-gap: 20px;
+    grid-gap: 6px;
     padding-bottom: 25px;
     padding-top: 25px;
     
@@ -32,7 +32,13 @@
 
 }
 .reservation1  {
+<<<<<<< HEAD
     background-image: url(/images/rooms/1.jpg);     
+=======
+    background-image: url(/images/rooms/1.jpg);
+    background-size: 355px 400px ;
+    background-repeat: no-repeat;
+>>>>>>> cf99ec90bcef09a138122594bb737f81cc368c0d
         grid-column-start: 1;
             grid-column-end: 3;
             grid-row-start: 1;
@@ -44,7 +50,8 @@
 
 .reservation2 {
     background-image: url(/images/rooms/2.jpg);
-    
+    background-size: 355px 400px ;
+    background-repeat: no-repeat;
 
     grid-column-start: 3;
     grid-column-end: 5;
@@ -54,7 +61,8 @@
 
 .reservation3{
     background-image: url(/images/rooms/3.jpg);
-    
+    background-size: 355px 400px ;
+    background-repeat: no-repeat;
 
     grid-column-start: 5;
     grid-column-end: 7;
@@ -81,6 +89,8 @@
 
 .reservation4{
     background-image: url(/images/rooms/4.jpg);
+    background-size: 550px 400px ;
+    background-repeat: no-repeat;
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 1;
@@ -90,6 +100,8 @@
 
 .reservation5{
     background-image: url(/images/rooms/5.jpg);
+    background-size: 550px 400px ;
+    background-repeat: no-repeat;
     grid-column-start: 3;
     grid-column-end: 5;
     grid-row-start: 1;
