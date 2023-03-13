@@ -387,3 +387,11 @@ a {
             margin-left: 0;
         }
     }
+
+
+    
+  @media screen and (min-width: 800px) {
+    .container {
+      margin: 1em 2em;
+    }
+  }
