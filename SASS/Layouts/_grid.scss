@@ -39,8 +39,7 @@
             grid-column-end: 3;
             grid-row-start: 1;
             grid-row-end: 5;
-       background-size: 400px 400px;
-       background-repeat: no-repeat;
+      
    
     
 }
@@ -218,14 +217,14 @@
        }
  }
 
- .gridContainer{
-
+ .chambres{
  a:hover{
-  
+    font-family: $fontLien;
     font-weight: bold;
     color: black;
    }
 }
+ 
 .gridLegend5{
     padding-top:35%;
     padding-left: 10px;
