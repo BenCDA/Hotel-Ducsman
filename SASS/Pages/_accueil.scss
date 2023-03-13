@@ -1,97 +1,98 @@
 // commentaire 
 
-#Accueil{ 
+#Accueil {
     color: $special ;
 
 }
 
-main{
-    
+main {
+
     padding: 3em 5em 6em 5em;
 }
 
-.ChambreSlider img{
+.ChambreSlider img {
     width: 40%;
 }
 
-.ImagePiecesHotel img{
-    width: 40%; 
-    margin-left: 5%; 
-   height: auto;
-   margin-top: 5%;
-    
+.ImagePiecesHotel img {
+    width: 40%;
+    margin-left: 5%;
+    height: auto;
+    margin-top: 5%;
+
 }
 
-.ImagesChambres img{
-    width: 40%;  
+.ImagesChambres img {
+    width: 40%;
 }
 
-.LeRestaurant img{
-    width: 40%;   
+.LeRestaurant img {
+    width: 40%;
 }
 
-.ExperienceBienEtre img{
-    width: 40%;   
+.ExperienceBienEtre img {
+    width: 40%;
 }
 
 .Epanouissement img {
-    width: 40%;   
+    width: 40%;
 }
 
-.ExperienceCentreAquatique img{
-    width: 40%;  
+.ExperienceCentreAquatique img {
+    width: 40%;
 }
 
-.ExperienceDuLuxe{
-    margin-left: 8% ;
+.ExperienceDuLuxe {
+    margin-left: 8%;
     display: flex;
 }
 
-.Description{
-   color:  $blanc;
-   font-family: $fontTitre;
-   font-weight: lighter;
-   font-size: 35px;
+.Description {
+    color: $blanc;
+    font-family: $fontTitre;
+    font-weight: lighter;
+    font-size: 35px;
 }
 
-.Hotel-Ducsman{
+.Hotel-Ducsman {
     color: $special;
     font-family: $fontLien;
     letter-spacing: 4px;
 }
 
-.BienvenueTxt{
+.BienvenueTxt {
     color: $grisClair;
 
-font-family: $fontTexte;
+    font-family: $fontTexte;
 }
 
-.ImagePiecesHotel{
+.ImagePiecesHotel {
     display: flex;
 
 }
 
-.ImagePiecesHotel img:first-of-type{
+.ImagePiecesHotel img:first-of-type {
     margin-top: 90px;
 }
 
-.ImagePiecesHotel img:last-of-type{
+.ImagePiecesHotel img:last-of-type {
     margin-bottom: 90px;
 }
 
 .ImagesChambres {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 100px 100px 100px  ;
-    #roomUn{
+    grid-template-rows: 100px 100px 100px;
+
+    #roomUn {
         grid-column: 1 / 3;
     }
 }
 
 
-.Bienvenue{
+.Bienvenue {
     padding: 0%;
-  
+
 }
 
 
@@ -103,9 +104,9 @@ font-family: $fontTexte;
     height: 600px;
     overflow: hidden;
     position: relative;
-  }
-  
-  .slider img {
+}
+
+.slider img {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -113,36 +114,36 @@ font-family: $fontTexte;
     left: 0;
     opacity: 0;
     transition: opacity 1s ease-in-out;
-  }
-  
-  .slider img.active {
+}
+
+.slider img.active {
     opacity: 1;
-  }
-  
-  .slider .arrow {
+}
+
+.slider .arrow {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     font-size: 30px;
     cursor: pointer;
-  }
-  
-  .slider .prev {
+}
+
+.slider .prev {
     left: 10px;
-  }
-  
-  .slider .next {
+}
+
+.slider .next {
     right: 10px;
-  }
+}
 
-  .TitreSurImage{
+.TitreSurImage {
 
-    .SousTitre{
+    .SousTitre {
 
         z-index: 1;
         position: absolute;
         text-align: center;
-        width: 40%;  
+        width: 40%;
         margin: 0 auto;
         left: 40%;
         right: 0;
@@ -153,8 +154,8 @@ font-family: $fontTexte;
         font-family: $fontTexte;
 
     }
-   
-    .Titre{
+
+    .Titre {
         z-index: 1;
         position: absolute;
         text-align: center;
@@ -162,42 +163,45 @@ font-family: $fontTexte;
         left: 45%;
         top: 20%;
         color: white;
-        width: 40%;  
+        width: 40%;
         font-size: 400%;
         font-weight: lighter;
         letter-spacing: 10px;
         font-family: $fontTitre;
-        padding-left : 0% !important;
+        padding-left: 0% !important;
     }
 
-.boutonaccueil{
-    z-index: 1;
-    position: absolute;
-    text-align: center;
-    margin: 0 auto;
-    left: 40%;
-    right: 60%;
-    top: 40%;
-    color: white;
-    width: 40%;  
-    font-size: 80%;
-    font-weight: lighter;
-    letter-spacing: 5px;
-    font-family: $fontTitre;
- a{
+    .boutonaccueil {
+        z-index: 1;
+        position: absolute;
+        text-align: center;
+        margin: 0 auto;
+        left: 40%;
+        right: 60%;
+        top: 40%;
+        color: white;
+        width: 40%;
+        font-size: 80%;
+        font-weight: lighter;
+        letter-spacing: 5px;
+        font-family: $fontTitre;
 
- 
-    border: 1px solid $grisClair ;
-    padding: 15px 10px 15px 10px}
+        a {
+
+
+            border: 1px solid $grisClair ;
+            padding: 15px 10px 15px 10px
+        }
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+
 }
-* {
-    box-sizing: border-box;
-  }
 
-
-}
-
-  .TitreSurImage img{
+.TitreSurImage img {
     z-index: 1;
     position: absolute;
     text-align: center;
@@ -205,14 +209,74 @@ font-family: $fontTexte;
     left: 1100px;
     right: 60%;
     top: 10%;
- width: 4%;  
- 
-  }
+    width: 4%;
+
+}
 
 
-  @media screen and (min-width: 800px) {
-    .main {
-      margin: 1em 2em;}
+@media screen and (min-width: 320px) and (max-width: 768px) {
 
-  
-  }
+
+    .InfosChambre {
+        h1 {
+            width: 10px;
+        }
+    }
+
+    main {
+
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+
+
+    }
+
+    .slider img {
+        width: 100%;
+        height: 50%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        transition: opacity 1s ease-in-out;
+    }
+
+    .slider img.active {
+        opacity: 1;
+    }
+
+    .slider .arrow {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    .slider .prev {
+        left: 10px;
+    }
+
+    .slider .next {
+        right: 10px;
+    }
+
+    .TitreSurImage {
+
+        .SousTitre {
+
+
+
+            width: 10%;
+            margin: 0 auto;
+            left: 40%;
+            right: 0;
+            top: 17%;
+            color: white;
+            width: 30%;
+            letter-spacing: 5px;
+            font-family: $fontTexte;
+
+        }
+    }
+}

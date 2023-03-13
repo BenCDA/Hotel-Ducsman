@@ -107,10 +107,8 @@ h2 {
         color: $special;
     }
 }
-.bloc2 {
-    display: flex;
-    justify-content: space-between;
-width: 100%;
+.blocFinCont {
+    width: 100%;
 .apropos {
     width: 40%;
 }
@@ -229,6 +227,23 @@ header {
 .map {
     width: 80%;
 }
+main {
+    padding: 0 0 0 0 ;
+}
 
-      }
+.blocFinCont {
+    display: flex;
+    flex-direction: column;
+}
+.blocFinCont .apropos {
+    order: 1;
+    margin-left: 0;
+}
+.blocFinCont .contactfin{
+    order: 2;
+    margin-left: 0;
+}
+
+
+}
     
