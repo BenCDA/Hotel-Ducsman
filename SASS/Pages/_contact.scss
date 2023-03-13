@@ -104,6 +104,8 @@ h2 {
     }
 }
 .bloc2 {
+    display: flex;
+    justify-content: space-between;
     p {
         font-family: $fontTexte;
     }
@@ -173,6 +175,10 @@ header {
 
     .Menu a {
         font-size: 24px;
+    }
+
+    .bloc2 {
+        justify-content: space-between;
     }
 
     
