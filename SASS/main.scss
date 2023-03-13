@@ -17,16 +17,22 @@
 @import "./Composants/buttons-hors-formulaire";
 @import "./Composants/carrousel";
 
+
+@import "./Layouts/APropos";
 @import "./Layouts/aside";
-@import "./Layouts/footer";
-@import "./Layouts/gridChambres";
 @import "./Layouts/FlexLoisirs";
+@import "./Layouts/footer";
+@import "./Layouts/grid1";
+@import "./Layouts/gridChambres";
+@import "./Layouts/GridLoisirs";
 @import "./Layouts/header";
 @import "./Layouts/main";
 @import "./Layouts/menu-burger";
 @import "./Layouts/navigation";
 @import "./Layouts/Option";
 @import "./Layouts/services";
+
+
 @import "./Pages/accueil";
 @import "./Pages/chambre";
 @import "./Pages/contact";
@@ -35,7 +41,6 @@
 
 
 @import "./Themes/pasbesoin";
-
 
 
 @import "./Vendors/images";
