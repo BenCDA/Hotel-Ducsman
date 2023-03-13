@@ -70,19 +70,16 @@ main {
         }
     }
 
+}
 
-    .TitreSurImage img {
-        z-index: 1;
-        position: absolute;
-        text-align: center;
-        margin: 0 auto;
-        left: 1100px;
-        right: 60%;
-        top: 10%;
+.TitreSurImage img {
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    margin: 0 auto;
+    left: 960px;
+    top: 10%;
 
-        width: 4%;
-
-    }
 }
 
 .nom {
@@ -160,7 +157,6 @@ h2 {
 
         h2 {
 
-
             font-family: $fontTitre;
 
             font-weight: 100;
@@ -197,7 +193,6 @@ h2 {
         font-family: $fontTitre;
 
         font-weight: lighter;
-
     }
 }
 
@@ -277,7 +272,6 @@ h2 {
 
     .texte-image p {
         z-index: 1;
-
 
         p {
             z-index: 1;
