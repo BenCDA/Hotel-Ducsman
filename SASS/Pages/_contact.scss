@@ -1,9 +1,10 @@
 section, main {
     background-color: $grisClairMoyen;
-   
+   margin-top: 30px;
     
 ul {
     list-style-type: none;
+    padding: 0;
     li {
     margin-right: 150px;
     }
@@ -49,7 +50,8 @@ h2 {
     color: $blanc;
     font-family: $fontTitre;
     font-size: 1.5em;
-    letter-spacing: 0.1em;
+    font-weight: lighter;
+   
 }
 
 .colored {
@@ -118,6 +120,9 @@ header {
 }
 .colonne {
     background-color: $grisFonce;
+}
+.colonnedroite {
+    background-color: $grisClairMoyen;
 }
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
