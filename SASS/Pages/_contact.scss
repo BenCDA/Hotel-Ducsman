@@ -26,12 +26,14 @@ label {
     input, 
     textarea {
         background-color: $grisClairMoyen;
-        border-color: $grisClairMoyen;
-        border: transparent;
+        margin: 20px;
+      
     }
 
     
-
+input{
+    border-color: #fff;
+}
 
 #Contact {
     color: $special;
