@@ -11,9 +11,9 @@
  
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(4, 5vw);
-    grid-gap: 6px;
-    padding-bottom: 25px;
+  
+    gap: 5px ;
+  
     padding-top: 25px;
     
 }
@@ -33,7 +33,7 @@
 }
 .reservation1  {
     background-image: url(/images/rooms/1.jpg);  
-    background-size: 400px 400px ;   
+    background-size: 450px 450px ;   
     background-repeat: no-repeat;
         grid-column-start: 1;
             grid-column-end: 3;
@@ -47,7 +47,7 @@
 
 .reservation2 {
     background-image: url(/images/rooms/2.jpg);
-    background-size: 400px 400px ;
+    background-size: 450px 450px ;
     background-repeat: no-repeat;
 
     grid-column-start: 3;
@@ -58,7 +58,7 @@
 
 .reservation3{
     background-image: url(/images/rooms/3.jpg);
-    background-size: 400px 400px ;
+    background-size: 450px 450px ;
     background-repeat: no-repeat;
 
     grid-column-start: 5;
@@ -86,7 +86,7 @@
 
 .reservation4{
     background-image: url(/images/rooms/4.jpg);
-    background-size: 600px 400px ;
+    background-size: 700px 400px ;
     background-repeat: no-repeat;
     grid-column-start: 1;
     grid-column-end: 3;
@@ -97,8 +97,9 @@
 
 .reservation5{
     background-image: url(/images/rooms/5.jpg);
-    background-size: 610px 400px ;
+    background-size: 670px 400px ;
     background-repeat: no-repeat;
+   
     grid-column-start: 3;
     grid-column-end: 5;
     grid-row-start: 1;
@@ -108,6 +109,7 @@
 
 
 .gridLegend1{
+    
    padding-top:  50%;
    padding-left: 10px;
 
@@ -121,7 +123,9 @@
     font-family: $fontTitre;
     font-weight:lighter;
    }
-
+ 
+   
+   
    
 }
 
@@ -131,13 +135,25 @@
 
     .reservation{
         writing-mode: vertical-rl;
+padding-top: 25px;
+padding-left: 85%;
+font-family: $fontLien;
+font-weight: bold;
+letter-spacing: 2px;
+
     }
-   }
+  
+}
 
    .reservation2 {
 
     .reservation{
     writing-mode: vertical-rl;
+    padding-top: 30px;
+padding-left: 85%;
+font-family: $fontLien;
+font-weight: bold;
+letter-spacing: 2px;
     
     }
    }
@@ -146,6 +162,11 @@
 
     .reservation{
     writing-mode: vertical-rl;
+    padding-top: 30px;
+padding-left: 85%;
+font-family: $fontLien;
+font-weight: bold;
+letter-spacing: 2px;
     
     }
    }
@@ -154,6 +175,11 @@
 
     .reservation{
     writing-mode: vertical-rl;
+    padding-top: 30px;
+padding-left: 92%;
+font-family: $fontLien;
+font-weight: bold;
+letter-spacing: 2px;
     
     }
    }
@@ -162,11 +188,16 @@
 
     .reservation{
     writing-mode: vertical-rl;
+    padding-top: 30px;
+padding-left: 89%;
+font-family: $fontLien;
+font-weight: bold;
+letter-spacing: 2px;
     
     }
    }
 .gridLegend2{
-    padding-top: 50%;
+    padding-top:  40%;
     padding-left: 10px;
 
     a{
@@ -183,7 +214,7 @@
 
  
 .gridLegend3{
-    padding-top: 50%;
+    padding-top:  40%;
     padding-left: 10px;
 
     a{
@@ -200,7 +231,7 @@
 
  
 .gridLegend4{
-    padding-top: 35%;
+    padding-top: 25%;
     padding-left: 10px;
 
     a{
@@ -226,7 +257,7 @@
 }
  
 .gridLegend5{
-    padding-top:35%;
+    padding-top:25%;
     padding-left: 10px;
 
     a{
@@ -243,136 +274,7 @@
 
 
 
-// Loisirs 
-
-.LeRestaurant img {
-    width: 60%;
-
-}
-
-.ExperienceBienEtre img {
-    width: 40%;
-}
-
-.Epanouissement img {
-    width: 40%;
-}
-
-.ExperienceCentreAquatique img {
-    width: 40%;
-}
-
-
-.LeRestaurant {
-    display: flex;
-    flex-direction: row;
-
-    .Restaurant {
-        width: 50%;
-    }
-}
-
-.ExperienceBienEtre {
-    display: flex;
-    flex-direction: row-reverse;
-
-    .SalonDeMassage {
-        width: 50%;
-    }
-}
-
-.Epanouissement {
-    display: flex;
-    flex-direction: row;
-
-    .SalleDeSport {
-        width: 50%;
-    }
-}
-
-.ExperienceCentreAquatique {
-    display: flex;
-    flex-direction: row-reverse;
-
-    .Piscine {
-        width: 50%;
-    }
-}
-
-h4 {
-    color: $special;
-    font-family: $fontLien ;
-    font-size: 15px;
-    letter-spacing: 3px;
-}
-
-h3 {
-    color: $blanc;
-    font-family: $fontTitre ;
-    font-weight: lighter;
-    font-size: 25px;
-}
-
-p {
-    color: $grisClair;
-    font-family: $fontTexte;
-    text-align: justify;
-    margin-bottom: 30px;
-
-}
-
-.DecouverteTxt {
-    padding-right: 20px;
-    padding-left: 20px;
-
-}
-
-.EnSavoirPlus {
-    background-color: $special;
-    padding: 10px 20px 10px 20px;
-    font-family: $fontLien ;
-    letter-spacing: 3px;
-    font-size: 10px;
-    margin-top: 20px;
-}
-
-.EnSavoirPlus:hover{
-    background-color: $grisFonceMoyen ;
-}
-
-a {
-    text-decoration: none;
-    color: $blanc;
-}
-
-.Epanouissementdeux {
-    padding-right: 20px;
-    padding-left: 20px;
-}
-
-.CentreAquatique {
-    padding-right: 20px;
-    padding-left: 20px;
-}
-
-.ExperiencesTxt {
-    padding-right: 20px;
-    padding-left: 20px;
-}
-
-.blocLoisirs{
-    background-color:$gris ;
-}
-
-.fondDeux{
-    background-color: $grisClairMoyen;
-  
-}
-
-// Bien mettre la nav bar et le contenu //
-.colonnes {
-display: grid;
-grid-template-columns: 20% 80%;
-height: auto;
+.gridContainer a:hover{
+    color: black;
 }
 
