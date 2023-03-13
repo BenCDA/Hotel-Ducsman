@@ -109,9 +109,9 @@
 
 
 .gridLegend1{
-    
-   padding-top:  50%;
-   padding-left: 10px;
+    padding-top: 40%;
+    padding-bottom: 10%;
+  
 
    a{
     font-family: $fontLien;
@@ -124,6 +124,9 @@
     font-weight:lighter;
    }
  
+  
+   
+   
    
    
    
@@ -135,11 +138,13 @@
 
     .reservation{
         writing-mode: vertical-rl;
-padding-top: 25px;
-padding-left: 85%;
-font-family: $fontLien;
-font-weight: bold;
-letter-spacing: 2px;
+        margin-top: 30px;
+     margin-left: 83%;
+     font-family: $fontLien;
+     font-weight: bold;
+     letter-spacing: 2px;
+     border: 1px solid white;
+     padding: 10px;
 
     }
   
@@ -148,51 +153,63 @@ letter-spacing: 2px;
    .reservation2 {
 
     .reservation{
-    writing-mode: vertical-rl;
-    padding-top: 30px;
-padding-left: 85%;
-font-family: $fontLien;
-font-weight: bold;
-letter-spacing: 2px;
+        writing-mode: vertical-rl;
+        margin-top: 30px;
+     margin-left: 83%;
+     font-family: $fontLien;
+     font-weight: bold;
+     letter-spacing: 2px;
+     border: 1px solid white;
+     padding: 10px;
+    
     
     }
    }
 
    .reservation3 {
-
+    padding-bottom: 10%;
     .reservation{
-    writing-mode: vertical-rl;
-    padding-top: 30px;
-padding-left: 85%;
-font-family: $fontLien;
-font-weight: bold;
-letter-spacing: 2px;
+        writing-mode: vertical-rl;
+        margin-top: 30px;
+     margin-left: 83%;
+     font-family: $fontLien;
+     font-weight: bold;
+     letter-spacing: 2px;
+     border: 1px solid white;
+     padding: 10px;
+    
     
     }
    }
 
    .reservation4 {
-
+   
     .reservation{
-    writing-mode: vertical-rl;
-    padding-top: 30px;
-padding-left: 92%;
-font-family: $fontLien;
-font-weight: bold;
-letter-spacing: 2px;
+        writing-mode: vertical-rl;
+        margin-top: 30px;
+     margin-left: 90%;
+     font-family: $fontLien;
+     font-weight: bold;
+     letter-spacing: 2px;
+     border: 1px solid white;
+     padding: 10px;
     
     }
    }
 
    .reservation5 {
 
+    
     .reservation{
     writing-mode: vertical-rl;
-    padding-top: 30px;
-padding-left: 89%;
+   margin-top: 30px;
+margin-left: 85%;
 font-family: $fontLien;
 font-weight: bold;
 letter-spacing: 2px;
+border: 1px solid white;
+padding: 10px;
+
     
     }
    }
@@ -274,142 +291,8 @@ letter-spacing: 2px;
 
 
 
-<<<<<<< HEAD:SASS/Layouts/_gridChambres.scss
 .gridContainer a:hover{
     color: black;
-=======
-// Loisirs 
-
-.LeRestaurant img {
-    width: 60%;
-
-}
-
-.ExperienceBienEtre img {
-    width: 40%;
-}
-
-.Epanouissement img {
-    width: 40%;
-}
-
-.ExperienceCentreAquatique img {
-    width: 40%;
-}
-
-
-.LeRestaurant {
-    display: flex;
-    flex-direction: row;
-
-    .Restaurant {
-        width: 50%;
-    }
-}
-
-.ExperienceBienEtre {
-    display: flex;
-    flex-direction: row-reverse;
-
-    .SalonDeMassage {
-        width: 50%;
-    }
-}
-
-.Epanouissement {
-    display: flex;
-    flex-direction: row;
-
-    .SalleDeSport {
-        width: 50%;
-    }
-}
-
-.ExperienceCentreAquatique {
-    display: flex;
-    flex-direction: row-reverse;
-
-    .Piscine {
-        width: 50%;
-    }
-}
-
-h4 {
-    color: $special;
-    font-family: $fontLien ;
-    font-size: 15px;
-    letter-spacing: 3px;
-}
-
-h3 {
-    color: $blanc;
-    font-family: $fontTitre ;
-    font-weight: lighter;
-    font-size: 25px;
-}
-
-p {
-    color: $grisClair;
-    font-family: $fontTexte;
-    text-align: justify;
-    margin-bottom: 30px;
-
-}
-
-.DecouverteTxt {
-    padding-right: 20px;
-    padding-left: 20px;
-
-}
-
-.EnSavoirPlus {
-    background-color: $special;
-    padding: 10px 20px 10px 20px;
-    font-family: $fontLien ;
-    letter-spacing: 3px;
-    font-size: 10px;
-    margin-top: 20px;
-}
-
-.EnSavoirPlus:hover{
-    background-color: $grisFonceMoyen ;
-}
-
-a {
-    text-decoration: none;
-    color: $blanc;
-}
-
-.Epanouissementdeux {
-    padding-right: 20px;
-    padding-left: 20px;
-}
-
-.CentreAquatique {
-    padding-right: 20px;
-    padding-left: 20px;
-}
-
-.ExperiencesTxt {
-    padding-right: 20px;
-    padding-left: 20px;
-}
-
-.blocLoisirs{
-    background-color:$gris ;
-}
-
-.fondDeux{
-    background-color: $grisClairMoyen;
-  
-}
-
-// Bien mettre la nav bar et le contenu //
-.colonnes {   
-display: grid;
-grid-template-columns: 20% 80%;
-height: auto;
->>>>>>> f916706d54685cd6b701b1aefdf2265d98b4e584:SASS/Layouts/_grid.scss
 }
 
 @media only screen and (max-width: 768px) {
