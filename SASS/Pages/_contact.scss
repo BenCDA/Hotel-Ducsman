@@ -107,10 +107,8 @@ h2 {
         color: $special;
     }
 }
-.bloc2 {
-    display: flex;
-    justify-content: space-between;
-width: 100%;
+.blocFinCont {
+    width: 100%;
 .apropos {
     width: 40%;
 }
@@ -212,16 +210,40 @@ header {
         .bloc1 {
           display: flex;
           flex-direction: column;
-          width: 100%;
+         
         }
       
-        .contactgauche {
+      .bloc1 .contactgauche {
           order: 1;
-          margin-left:3em ;
+          margin-left: 0;
+          
         }
       
-        .formulaire {
+        .bloc1 .formulaire {
           order: 2;
+          margin-left: 0;
         }
-      }
+
+.map {
+    width: 80%;
+}
+main {
+    padding: 0 0 0 0 ;
+}
+
+.blocFinCont {
+    display: flex;
+    flex-direction: column;
+}
+.blocFinCont .apropos {
+    order: 1;
+    margin-left: 0;
+}
+.blocFinCont .contactfin{
+    order: 2;
+    margin-left: 0;
+}
+
+
+}
     

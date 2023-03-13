@@ -190,7 +190,12 @@ font-family: $fontTexte;
     border: 1px solid $grisClair ;
     padding: 15px 10px 15px 10px}
 }
+* {
+    box-sizing: border-box;
   }
+
+
+}
 
   .TitreSurImage img{
     z-index: 1;
@@ -200,7 +205,76 @@ font-family: $fontTexte;
     left: 1100px;
     right: 60%;
     top: 10%;
-  
-    width: 4%;  
+ width: 4%;  
  
   }
+
+
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    
+
+    .InfosChambre{
+        h1 {
+            width: 10px;
+        }
+    }
+    
+    main{
+    
+        padding: 0px 0px 0px 0px;
+       margin: 0px 0px 0px 0px;
+
+    
+    }
+      
+      .slider img {
+        width: 100%;
+        height: 50%;
+        position:absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        transition: opacity 1s ease-in-out;
+      }
+      
+      .slider img.active {
+        opacity: 1;
+      }
+      
+      .slider .arrow {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 30px;
+        cursor: pointer;
+      }
+      
+      .slider .prev {
+        left: 10px;
+      }
+      
+      .slider .next {
+        right: 10px;
+      }
+
+      .TitreSurImage{
+
+        .SousTitre{
+    
+           
+            
+            width: 10%;  
+            margin: 0 auto;
+            left: 40%;
+            right: 0;
+            top: 17%;
+            color: white;
+            width: 30%;
+            letter-spacing: 5px;
+            font-family: $fontTexte;
+    
+        }
+}
+
+
+  
