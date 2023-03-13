@@ -127,7 +127,7 @@ width: 100%;
 }
 header {
     overflow-y: hidden;
-    background-color: $grisFonce;
+    background-color: $grisClairMoyen;
     
 }
 .telEmail {
@@ -205,3 +205,23 @@ header {
         width: 100%;
     }
 }
+
+@media screen and (min-width: 200px) and (max-width: 767px) {
+    
+   
+        .bloc1 {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+        }
+      
+        .contactgauche {
+          order: 1;
+          margin-left:3em ;
+        }
+      
+        .formulaire {
+          order: 2;
+        }
+      }
+    
