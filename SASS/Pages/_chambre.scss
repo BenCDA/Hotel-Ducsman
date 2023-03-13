@@ -188,14 +188,9 @@ h2 {
 }
 
 .photo-haut {
-    height: 100vh;
-    background-image: url(../../images/rooms/1.jpg);
-    position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    display: inline-block;
-    position: relative;
+    width: 100%;
+    height: 50%;
+  
 
     .photo-en-haut{
         
@@ -206,6 +201,7 @@ h2 {
 
     .texte-image p {
         z-index: 1;
+       
 
         p {
             z-index: 1;
