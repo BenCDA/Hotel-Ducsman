@@ -371,9 +371,19 @@ a {
 }
 
 // Bien mettre la nav bar et le contenu //
-.colonnes {
+.colonnes {   
 display: grid;
 grid-template-columns: 20% 80%;
 height: auto;
 }
 
+@media only screen and (max-width: 768px) {
+    .colonnes {
+        display: block;
+        background-color: $grisClairMoyen;
+    }
+
+    .colonnedroite {
+        margin-left: 0;
+    }
+}
