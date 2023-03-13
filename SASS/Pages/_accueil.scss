@@ -45,8 +45,6 @@ main{
 .ExperienceDuLuxe{
     margin-left: 8% ;
     display: flex;
-  
-
 }
 
 .Description{
@@ -146,7 +144,7 @@ font-family: $fontTexte;
         text-align: center;
         width: 40%;  
         margin: 0 auto;
-        left: 20%;
+        left: 40%;
         right: 0;
         top: 17%;
         color: white;
@@ -161,8 +159,7 @@ font-family: $fontTexte;
         position: absolute;
         text-align: center;
         margin: 0 auto;
-        left: 40%;
-        right: 60%;
+        left: 45%;
         top: 20%;
         color: white;
         width: 40%;  
@@ -170,6 +167,7 @@ font-family: $fontTexte;
         font-weight: lighter;
         letter-spacing: 10px;
         font-family: $fontTitre;
+        padding-left : 0% !important;
     }
 
 .boutonaccueil{
