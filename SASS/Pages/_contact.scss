@@ -36,10 +36,11 @@ label {
 
     
 input{
-    border-color: #fff;
+    border-color: $grisClairMoyen;
+    border: none;
 }
 
-#Contact {
+.contact {
     color: $special;
 }
 
@@ -53,6 +54,8 @@ h2 {
 
 .colored {
     color: $special;
+    font-size: 1.3em;
+    font-weight: bold;
 }
 
 .endtextwhite {
@@ -70,20 +73,24 @@ h2 {
         flex-direction: column;
         flex-wrap: wrap;
         margin-right: 3em;
+        gap: 10px;
     }
 
     .formulaire {
         display: flex;
         flex-direction: column;
         margin-left: 3em;
+        margin-right: 70px;
+        gap: 10px;
     }
     
     a {
         margin-top: 30px;
     }
+
     .flaticon-call {
         color: $special;
-        
+       
     }
     .flaticon-envelope {
         color: $special;
@@ -102,6 +109,12 @@ header {
     overflow-y: hidden;
     background-color: $grisFonce;
     
+}
+.telEmail {
+    .underline {
+        text-decoration: underline;
+        text-decoration-color: $special;
+    }
 }
 .colonne {
     background-color: $grisFonce;
@@ -135,7 +148,7 @@ header {
     }
 
     .formulaire {
-        width: 100%;
+        width: 70%;
         
     }
 
