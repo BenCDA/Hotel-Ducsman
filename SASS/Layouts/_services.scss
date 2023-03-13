@@ -7,6 +7,8 @@
     font-size: 40px;
 }
 
+
+
 .TroisUn{
     display: flex;
     flex-direction: row;
@@ -18,10 +20,12 @@
     }
 
 .Parking{
- padding-left: 6%;
+    padding-left: 6%;
+ width: 40%;
 }
     .RoomService{
-       padding-left: 18%
+       padding-left: 9%;
+       margin-right: 7%;
     }
        }
 
@@ -30,7 +34,21 @@
     display: flex;
     flex-direction: row;
   justify-content: space-between;
+
+ .Internet{
+    width: 27%;
+ }
+  
+.PetitDejeuner3{
+   width: 35%;
+
 }
+p{
+    padding-right: 15%;
+}
+
+  }
+
 
 
 .TroisUn span{
