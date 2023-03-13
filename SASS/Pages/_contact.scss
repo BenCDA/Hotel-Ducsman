@@ -1,9 +1,10 @@
 section, main {
     background-color: $grisClairMoyen;
-   
+   margin-top: 30px;
     
 ul {
     list-style-type: none;
+    padding: 0;
     li {
     margin-right: 150px;
     }
@@ -49,7 +50,8 @@ h2 {
     color: $blanc;
     font-family: $fontTitre;
     font-size: 1.5em;
-    letter-spacing: 0.1em;
+    font-weight: lighter;
+   
 }
 
 .colored {
@@ -119,6 +121,9 @@ header {
 .colonne {
     background-color: $grisFonce;
 }
+.colonnedroite {
+    background-color: $grisClairMoyen;
+}
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
 
@@ -166,7 +171,7 @@ header {
         left: 0;
         height: 100%;
         width: 100%;
-        background-color: #fff;
+        background-color: $grisFonce;
         z-index: 1;
         transform: translateX(-100%);
         transition: transform 0.3s ease-in-out;
@@ -219,5 +224,11 @@ header {
 
     .burger.show .burger-bar:nth-child(3) {
         transform: rotate(-45deg) translate(7px, -6px);
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1403px) {
+    body {
+        background-color: $grisClairMoyen;
     }
 }
