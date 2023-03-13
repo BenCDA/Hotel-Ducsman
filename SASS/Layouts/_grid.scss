@@ -109,7 +109,7 @@
 
 
 .gridLegend1{
-   padding-top: 70%;
+   padding-top:  50%;
    padding-left: 10px;
 
    a{
@@ -122,11 +122,52 @@
     font-family: $fontTitre;
     font-weight:lighter;
    }
+
+   
 }
 
+.reservation1 {
 
+    
+
+    .reservation{
+        writing-mode: vertical-rl;
+    }
+   }
+
+   .reservation2 {
+
+    .reservation{
+    writing-mode: vertical-rl;
+    
+    }
+   }
+
+   .reservation3 {
+
+    .reservation{
+    writing-mode: vertical-rl;
+    
+    }
+   }
+
+   .reservation4 {
+
+    .reservation{
+    writing-mode: vertical-rl;
+    
+    }
+   }
+
+   .reservation5 {
+
+    .reservation{
+    writing-mode: vertical-rl;
+    
+    }
+   }
 .gridLegend2{
-    padding-top: 70%;
+    padding-top: 50%;
     padding-left: 10px;
 
     a{
@@ -143,7 +184,7 @@
 
  
 .gridLegend3{
-    padding-top: 70%;
+    padding-top: 50%;
     padding-left: 10px;
 
     a{
@@ -160,13 +201,15 @@
 
  
 .gridLegend4{
-    padding-top: 47%;
+    padding-top: 35%;
     padding-left: 10px;
 
     a{
         font-family: $fontLien;
         font-weight: bold;
        }
+
+     
     
        span a{
         font-size: 30px;
@@ -175,9 +218,16 @@
        }
  }
 
- 
+ .gridContainer{
+
+ a:hover{
+  
+    font-weight: bold;
+    color: black;
+   }
+}
 .gridLegend5{
-    padding-top: 47%;
+    padding-top:35%;
     padding-left: 10px;
 
     a{
