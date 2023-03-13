@@ -9,12 +9,16 @@ ul {
     }
 }
 }
+
+
 p,
 label {
     color: $grisClair;
+    font-family: $fontTexte;
 }
 .contactgauche {
     color: $grisClair;
+    font-family: $fontTexte;
 }
 
     .logossocials {
@@ -67,6 +71,7 @@ h2 {
         flex-wrap: wrap;
         margin-right: 3em;
     }
+
     .formulaire {
         display: flex;
         flex-direction: column;
@@ -75,6 +80,21 @@ h2 {
     
     a {
         margin-top: 30px;
+    }
+    .flaticon-call {
+        color: $special;
+        
+    }
+    .flaticon-envelope {
+        color: $special;
+    }
+    .ti-location-pin {
+        color: $special;
+    }
+}
+.bloc2 {
+    p {
+        font-family: $fontTexte;
     }
 }
 
@@ -116,6 +136,7 @@ header {
 
     .formulaire {
         width: 100%;
+        
     }
 
     .infos {
