@@ -190,7 +190,12 @@ font-family: $fontTexte;
     border: 1px solid $grisClair ;
     padding: 15px 10px 15px 10px}
 }
+* {
+    box-sizing: border-box;
   }
+
+
+}
 
   .TitreSurImage img{
     z-index: 1;
@@ -200,7 +205,14 @@ font-family: $fontTexte;
     left: 1100px;
     right: 60%;
     top: 10%;
-  
-    width: 4%;  
+ width: 4%;  
  
+  }
+
+
+  @media screen and (min-width: 800px) {
+    .main {
+      margin: 1em 2em;}
+
+  
   }
